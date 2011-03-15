@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="475" height="390" xmlns:component="org.piscoweb.smr.component.*" borderStyle="none" preinitialize="Security.allowDomain('http://www.protectplanetocean.org');Security.allowDomain('*');">
+	<component:SoMRVisWrapper url="{Application.application.parameters.data_url}" 
+            	width="100%" height="100%" id="visWrapper" 
+            	styleName="somrComponentStyle" 
+            	cornerRadius="0" horizontalScrollPolicy="off" verticalScrollPolicy="off" borderStyle="none" />
+</mx:Application>
+

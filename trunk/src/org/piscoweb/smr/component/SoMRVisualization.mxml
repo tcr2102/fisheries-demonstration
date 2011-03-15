@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="425" height="344" xmlns:component="org.piscoweb.smr.component.*">
+	<mx:Script>
+		<![CDATA[
+			import org.piscoweb.smr.data.Location;
+			private var _json:Object;
+			private var currentLocation:Location;
+			
+			[Bindable]
+			public function get json():Object
+			{
+				return _json;
+			}
+			
+			public function set json(json:Object):void
+			{
+				currentLocation = new Location(json);
+				currentLocation.addEventListener(Location.BG_LOADED, function(event:Event):void{
+					scene.location = currentLocation;
+				});
+			}
+			
+			public function pause():void
+			{
+				scene.pause();
+			}
+			
+			public function resume():void
+			{
+				scene.resume();
+			}
+		]]>
+	</mx:Script>
+	<component:UnderwaterScene width="100%" height="100%" id="scene" />
+</mx:Canvas>

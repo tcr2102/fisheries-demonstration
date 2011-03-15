@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>SMR Tour</name>
+	<open>1</open>
+	<Camera>
+		<longitude>-112.7288256850578</longitude>
+		<latitude>15.17070817144885</latitude>
+		<altitude>5063284.616491226</altitude>
+		<heading>-8.837323483113876</heading>
+		<tilt>10.87688441623511</tilt>
+		<roll>-3.58409183495235</roll>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</Camera>
+	<Link>
+		<href>http://www.protectplanetocean.org/googleearthlayer/smr-tour-data.kmz</href>
+	</Link>
+</NetworkLink>
+</kml>

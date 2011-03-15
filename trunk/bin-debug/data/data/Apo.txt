@@ -1,0 +1,96 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Apo.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/apo/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 3.5927419354799999, 
+            "citation": "Abesamis, et al (2006) Aquatic Conservation", 
+			"direct_link": "http://onlinelibrary.wiley.com/doi/10.1002/aqc.730/abstract", 
+            "density": 2.5241635687700001, 
+            "display_name": "fished species'", 
+            "organisms": [
+                {
+                    "family": "Lethrinidae", 
+                    "genus": "Lethrinus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1862", 
+                    "mass": 1.7, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.80000000000000004, 
+                    "relative_size": 1.5, 
+                    "species": "erythracanthus", 
+                    "swf": "data/fish/Lethrinus_erythracanthus.swf"
+                }, 
+                {
+                    "family": "Serranidae", 
+                    "genus": "Cephalopholis", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=6453", 
+                    "mass": 3.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.29999999999999999, 
+                    "relative_size": 1.8, 
+                    "species": "sexmaculata", 
+                    "swf": "data/fish/Cephalopholis_sexmaculata.swf"
+                }, 
+                {
+                    "family": "Scaridae", 
+                    "genus": "Scarus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=4973\", \"http://fishbase.org/Photos/ThumbnailsSummary.php?ID=4973", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.0, 
+                    "species": "dimidiatus", 
+                    "swf": "data/fish/Scarus_dimidiatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0, 
+            "citation": "Abesamis, et al (2006) Aquatic Conservation", 
+            "density": 1.2, 
+            "display_name": "unfished species'", 
+            "organisms": [
+                {
+                    "a": 0.029700000000000001, 
+                    "b": 2.9359999999999999, 
+                    "family": "Pomacentridae", 
+                    "genus": "Amblyglyphidodon", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=5691", 
+                    "mass": 0.29999999999999999, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 0.5, 
+                    "species": "leucogaster", 
+                    "swf": "data/fish/Amblyglyphidod_leucogaster.swf"
+                }, 
+                {
+                    "a": 0.026700000000000002, 
+                    "b": 3.0489999999999999, 
+                    "family": "Chaetodontidae", 
+                    "genus": "Chaetodon", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=5566", 
+                    "mass": 0.69999999999999996, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.5, 
+                    "relative_size": 0.75, 
+                    "species": "melannotus", 
+                    "swf": "data/fish/Chaetodon_melannotus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Apo Island", 
+    "org_scale": 1.0, 
+    "point": "9.06141447157,123.269348145", 
+    "summary": "",
+    "byline": "One of the oldest marine reserves in the world shows dramatic changes due to full protection over multiple decades."
+}

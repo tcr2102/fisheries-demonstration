@@ -1,0 +1,129 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Reef", 
+        "swf": "data/backgrounds/Small_Bkg_Torre.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/torre2/caseStudy.html", 
+    "data_points": [ 
+		{
+            "biomass": 1.0, 
+            "citation": "Guidetti (2006) Ecological Applications",
+			"direct_link": "http://www.esajournals.org/doi/abs/10.1890/1051-0761(2006)016%5B0963%3AMRRLPI%5D2.0.CO%3B2",	
+            "density": 1.47, 
+            "display_name": "the ground cover of large seaweed()", 
+            "organisms": [
+                {
+                    "a": 0.0138, 
+                    "b": 3.07, 
+                    "family": "Pomacentridae", 
+                    "genus": "Diplodus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1753", 
+                    "mass": 50000, 
+                    "org_type": "algae",
+					"org_placement":"below",
+					"placement_horizon":200,
+					"horizon_angle":0, 
+                    "relative_abundance": 5, 
+                    "relative_size": 0.7, 
+                    "species": "partitus", 
+                    "swf": "data/fish/Branching_algae.swf"
+                },
+				{
+                    "a": 0.0138, 
+                    "b": 3.07, 
+                    "family": "Pomacentridae", 
+                    "genus": "Diplodus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1753", 
+                    "mass": 50000, 
+                    "org_type": "algae",
+					"org_placement":"below",
+					"placement_horizon":200,
+					"horizon_angle":0, 
+                    "relative_abundance": 3, 
+                    "relative_size": 1, 
+                    "species": "partitus", 
+                    "swf": "data/fish/Branching_algae2.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1				
+		},
+		{
+            "biomass": 1.0, 
+            "citation": "Guidetti (2006) Eco Apps", 
+            "density": 0.0961088092235633, 
+            "display_name": "purple sea urchin (Paracentrotus lividus)", 
+            "organisms": [
+                {
+                    "family": "Echinidae", 
+                    "genus": "Paracentrotus", 
+                    "info_url": "http://www.marlin.ac.uk/learningzone/species/LZ_Paracentrotuslividus.htm", 
+                    "mass": 2.0, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":200,
+					"horizon_angle":0, 
+                    "relative_abundance": 10.0, 
+                    "relative_size": 0.3500000000000001, 
+                    "species": "analis", 
+                    "swf": "data/fish/Paracentrotus_lividus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		},
+		{
+            "biomass": 1.0, 
+            "citation": "Guidetti (2006) Eco Apps", 
+            "density": 1.22702702702703, 
+            "display_name": "mediterranean rainbow wrasse (Coris julis)", 
+            "organisms": [
+                {
+                    "a": 0.0048, 
+                    "b": 3.378, 
+                    "family": "Labridae", 
+                    "genus": "Coris", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=58", 
+                    "mass": 0.59999999999999998, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0000000000000001, 
+                    "relative_size": 1.19999999999999996, 
+                    "species": "bahianus", 
+                    "swf": "data/fish/Coris_julis.swf"
+                }				
+				], 
+            "richness": 1.0, 
+            "size": 1
+		}, 
+		{
+            "biomass": 1.0, 
+            "citation": "Guidetti (2006) Eco Apps", 
+            "density": 19.272301933874, 
+            "display_name": "white seabream (Diplodus sargus)", 
+            "organisms": [
+                {
+                    "a": 0.0138, 
+                    "b": 3.07, 
+                    "family": "Pomacentridae", 
+                    "genus": "Diplodus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1753", 
+                    "mass": 0.29999999999999999, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.07, 
+                    "relative_size": 1.5, 
+                    "species": "partitus", 
+                    "swf": "data/fish/Diplodus_sargus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0				
+		}
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Torre Guaceto, Italy", 
+    "org_scale": 1.0, 
+    "point": "24.5870903392,-82.7709960938", 
+    "summary": "",
+    "byline": "Commercially important fishes increased inside this marine reserve, where they were protected from fishing."
+}

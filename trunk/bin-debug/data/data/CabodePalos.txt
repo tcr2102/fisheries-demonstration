@@ -1,0 +1,85 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Reef", 
+        "swf": "data/backgrounds/Small_Bkg_Cabo.swf"
+    }, 
+    "case_study_url":  "http://www.protectplanetocean.org/collections/successandlessons/casestudy/westernmed/caseStudy.html",  
+    "data_points": [
+        {
+            "biomass": 9.72413793103448, 
+            "citation": "Harmelin-Vivien et al. (2008) Biological Conservation", 
+			"direct_link": "http://cat.inist.fr/?aModele=afficheN&cpsidt=20534543",
+            "density": 1.64725457570715, 
+            "display_name": "fish()", 
+            "organisms": [
+                {
+                    "family": "Scianidae", 
+                    "genus": "Epinephelus", 
+                    "info_url": "http://www.fishbase.org/photos/thumbnailssummary.php?ID=6470", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.9000000000000001, 
+                    "species": "marginatus", 
+                    "swf": "data/fish/Epinephelus_marginatus.swf"
+                }
+				
+			], 
+            "richness": 1.31632653061224, 
+            "size": 1	
+		},
+		{
+            "biomass": 9.72413793103448, 
+            "citation": "Harmelin-Vivien et al. (2008) Biological Conservation", 
+            "density": 1.64725457570715, 
+            "display_name": "fish()", 
+             "organisms": [
+               
+				{
+                    "family": "Serranidae", 
+                    "genus": "Sciaena", 
+                    "info_url": "http://fishbase.org/photos/thumbnailssummary.php?ID=1707", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 0.8000000000000001, 
+                    "species": "umbra", 
+                    "swf": "data/fish/Sciaena_umbra.swf"
+                }
+				
+			], 
+            "richness": 1.31632653061224, 
+            "size": 1	
+		} ,
+		{
+            "biomass": 9.72413793103448, 
+            "citation": "Harmelin-Vivien et al. (2008) Biological Conservation", 
+            "density": 1.64725457570715, 
+            "display_name": "fish()", 
+            "organisms": [
+                
+				{
+                    "family": "Sparidae", 
+                    "genus": "Dentex", 
+                    "info_url": "http://fishbase.org/photos/thumbnailssummary.php?ID=439", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.2000000000000001, 
+                    "species": "dentex", 
+                    "swf": "data/fish/Dentex_dentex.swf"
+                }
+				
+			], 
+            "richness": 1.31632653061224, 
+            "size": 1	
+		} 		
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Cabo de Palos, Spain", 
+    "org_scale": 1.0, 
+    "point": "24.5870903392,-82.7709960938", 
+    "summary": "",
+    "byline": "Commercially important fishes increased inside this marine reserve, where they were protected from fishing."
+}

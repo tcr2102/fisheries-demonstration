@@ -1,0 +1,101 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/gbr/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 4.6302083333299997, 
+            "citation": "Evans & Russ (2004) Aquatic Conservation", 
+			"direct_link":"http://onlinelibrary.wiley.com/doi/10.1002/aqc.631/abstract", 
+            "density": 0.67741935483899995, 
+            "display_name": "Coral Trout", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Plectropomus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=4826", 
+                    "mass": 3.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.29999999999999999, 
+                    "relative_size": 2.5, 
+                    "species": "leopardus", 
+                    "swf": "data/fish/Plectropomus_leopardus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0, 
+            "citation": "Evans & Russ (2004) Aquatic Conservation", 
+            "density": 0.55866666666700004, 
+            "display_name": "Barred Spinefoot", 
+            "organisms": [
+                {
+                    "family": "Siganidae", 
+                    "genus": "Siganus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=4623", 
+                    "mass": 0.90000000000000002, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.3, 
+                    "relative_size": 0.90000000000000002, 
+                    "species": "doliatus", 
+                    "swf": "data/fish/Siganus_doliatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 5.8260869565200002, 
+            "citation": "Evans & Russ (2004) Aquatic Conservation", 
+            "density": 2.2130013831299999, 
+            "display_name": "Spanish Flag Snapper", 
+            "organisms": [
+                {
+                    "family": "Lutjanidae", 
+                    "genus": "Lutjanus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1424", 
+                    "mass": 1.5, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.6000000000000001, 
+                    "species": "carponotatus", 
+                    "swf": "data/fish/Lutjanus_carponotatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0, 
+            "citation": "Evans & Russ (2004) Aquatic Conservation", 
+            "density": 0.97141988446299998, 
+            "display_name": "Golden Butterflyfish", 
+            "organisms": [
+                {
+                    "family": "Chaetodontidae", 
+                    "genus": "Chaetodon", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=6513", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.3999999999999999, 
+                    "relative_size": 0.75, 
+                    "species": "aureofasciatus", 
+                    "swf": "data/fish/Chaetodon_aureofasciatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Keppel Islands", 
+    "org_scale": 0.80000000000000004, 
+    "point": "-23.1176276119,150.948028564", 
+    "summary": "",
+    "byline": "Full protection led to more fishes of bigger sizes in this reserve, part of the largest marine reserve network in the world."
+}
