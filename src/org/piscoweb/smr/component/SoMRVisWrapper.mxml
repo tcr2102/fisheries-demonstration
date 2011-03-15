@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas creationComplete="startSend()" xmlns:mx="http://www.adobe.com/2006/mxml" clipContent="true" xmlns:component="org.piscoweb.smr.component.*">
+	<mx:Script>
+		<![CDATA[
+			import mx.controls.Text;
+			import mx.rpc.events.ResultEvent;
+			import com.adobe.serialization.json.JSON;
+			
+			[Bindable]
+			public var url:String;
+		
+			private function startSend():void
+			{
+				if(url && url != null){
+					configService.send();
+				}else{
+					var warning:Text = new Text();
+					warning.text = "You should not be seeing this. The SoMRVisWrapper's url is not set to anything, so this tab should not be shown";
+					this.addChild(warning);
+				}
+			}
+			
+			public function load(event:ResultEvent):void
+			{
+				var j:Object = JSON.decode(String(event.result));
+				viz.json = j;
+//				trace(event.result);
+			}
+		]]>
+	</mx:Script>
+	<component:SoMRVisualization borderStyle="solid" borderThickness="4" borderColor="#1E6869" width="425" height="344" clipContent="true" id="viz"  horizontalScrollPolicy="off" verticalScrollPolicy="off"   horizontalCenter="0" verticalCenter="0"/>
+	<mx:HTTPService id="configService" result="load(event)" url="{url}" showBusyCursor="true" resultFormat="text" /> 	
+</mx:Canvas>

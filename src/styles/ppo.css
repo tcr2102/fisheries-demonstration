@@ -1,0 +1,104 @@
+/* CSS file */
+global
+{
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #171733;
+}
+
+.timeStyle {
+	color: #064082;
+	font-family: Arial;
+	font-size: 12;
+}
+
+LinkButton {
+	color: #004500;
+	rollOverColor: #FFFFFF;
+	selectionColor: #FFFFFF;
+	textRollOverColor: #004500;
+	textSelectedColor: #004500;	
+}
+
+
+Tab {
+	color: #064082;
+	fill-colors: #FFFFFF, #aecde0;
+	cornerRadius: 8;
+}
+
+TabNavigator {
+	theme-color: #aecde0;
+}
+
+.playPauseStyle {
+	/* play button skins */
+	skin: Embed('images/control_play.png');
+	downSkin: Embed('images/control_play_blue.png');
+	
+	/* pause button skins */
+	selectedUpSkin: Embed('images/control_pause.png');
+	selectedOverSkin: Embed('images/control_pause.png');
+	selectedDownSkin: Embed('images/control_pause_blue.png');
+}
+
+.stopStyle {
+	skin: Embed('images/control_stop.png');
+	downSkin: Embed('images/control_stop_blue.png');
+}
+
+.controllerStyle {
+	paddingBottom: 3;
+	paddingLeft: 5;
+	paddingRight: 5;
+	paddingTop: 5;
+	/*alpha: 0;*/
+	background-color: #D3E5F0;/*#598BAA;*/
+}
+
+.videoBtnStyle
+{
+	fill-colors: #D3E5F0, #FFFFFF;
+	color: #171733;
+   	border-thickness: 1;
+}
+
+.moreBtnStyle
+{
+	fill-colors: #D3E5F0, #FFFFFF;
+	color: #171733;
+   	border-thickness: 1;
+   	fontSize: 14;
+}
+
+.photoDetails
+{
+    fontSize:                    12;
+    color: #171733;
+}
+.thumbnailListBorderBox
+{
+    backgroundColor: #D3E5F0; /*#9e9c8d;*/
+}
+
+.thumbnailList
+{
+    borderColor:                #D3E5F0;
+    backgroundColor:            #D3E5F0;
+    selectionColor:             #D3E5F0;
+    rollOverColor:              #D3E5F0;
+    themeColor:                 #D3E5F0;
+    borderStyle:                "solid";
+    cornerRadius:               10;
+}
+
+.moreInfoStyle
+{
+	 borderStyle: "solid";
+	 cornerRadius: 5;
+	 paddingTop: 5;
+	 paddingBottom: 5;
+	 paddingRight: 7;
+	 paddingLeft: 7;
+}
+

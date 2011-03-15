@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://blog.flexexamples.com/2007/07/26/displaying-xml-data-in-a-datagrid/ -->
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+		xmlns:yt="ytplayer.*"
+        layout="vertical"
+        verticalAlign="top"
+        backgroundColor="white"
+        horizontalGap="0"
+        verticalGap="0"
+        width="500"
+        height="500"
+        paddingTop="0"
+        paddingBottom="0"
+        paddingLeft="0"
+        paddingRight="0" 
+        initialize="init()" xmlns:component="org.piscoweb.smr.component.*">   
+
+    <mx:Style source="/styles/ppo.css"/>
+
+    <mx:Script>
+        <![CDATA[
+        	import mx.collections.XMLListCollection;
+        	import flash.net.*;
+        	import flash.events.Event;       	
+        	
+     		[Bindable] public var myXML:XML = new XML();
+			private var myLoader:URLLoader = new URLLoader();
+			[Bindable] public var selectedPhotoIndex:int = 0;
+			private function init():void {
+				var xml_url:String = "";
+				if (Application.application.parameters.xmlUrl) {
+					xml_url = Application.application.parameters.xmlUrl;
+				}
+				else {
+					xml_url = "http://portaldev.protectplanetocean.org/kml/flash_xml_example.xml"; // default
+				}
+				var myXMLURL:URLRequest = new URLRequest(xml_url);
+				myLoader.addEventListener(Event.COMPLETE, xmlLoaded);
+				myLoader.load(myXMLURL);
+			}
+			public function xmlLoaded(event:Event):void
+			{
+			    myXML = XML(myLoader.data);
+				// Don't display the photos tab if there are no photos
+				if (myXML.photo.length() == 0) {
+					mpaTabs.removeChild(photosTab);
+				}
+				// Don't display the videos tab if there are no videos
+				if (myXML.video.length() == 0) {
+					mpaTabs.removeChild(videosTab);
+				}
+				// Don't display the science tab if there's no content
+				if (myXML.somrData == '') {
+					mpaTabs.removeChild(scienceTab);
+				}
+				// There should always be stories and more tabs, but just in case there's no stories...
+				if (myXML.story.length() == 0) {
+					mpaTabs.removeChild(storiesTab);
+				}
+			}
+			
+			public function onTabClick(event:Event):void
+			{
+				// The first time the video tab is selected, cue the first video in the list
+				if (event.currentTarget.selectedIndex == 1 && !(player.isPauseable || player.isPlayable)) {
+					player.cueVideoById(getYouTubeVideoId(myXML.video[0].url));
+				}
+			}
+			
+			// Open a new page to the specified URL
+			public function linkHandler(url:String):void
+			{
+				navigateToURL(new URLRequest(url), '_blank');
+			}			
+			
+			// If we are playing a video, pause it; if we have a video ready to play, play it;
+			// If we did not load a video yet, load the first one in the list and play it
+			private function playPauseButton_click(evt:MouseEvent):void {
+				if (player.isPauseable) {
+					player.pauseVideo();
+				} else if (player.isPlayable) {
+                    player.playVideo();
+                }
+                else {
+                	player.loadVideoById(getYouTubeVideoId(myXML.video[0].url));
+                }
+			}
+			
+			// Stop the video
+			private function stopButton_click(evt:MouseEvent):void {
+				player.stopVideo();
+			}
+			
+			// Format the current video time and duration into minutes:seconds
+			private function updateVideoTime(evt:Event):void {
+				var pTime:Date = new Date(player.currentTime * 1000 || 100);
+				var tTime:Date = new Date(player.duration * 1000);
+				time.text = dateFormatter.format(pTime) + " / " + dateFormatter.format(tTime);
+			}
+			
+			// Parse a YouTube url to take the last 11 characters, which will be the video ID
+			private function getYouTubeVideoId(url:String):String {
+				return url.substr(url.length-11);
+			}
+			
+			// Load the video specified in the YouTube url
+			private function loadNewVideo(url:String):void {
+				player.loadVideoById(getYouTubeVideoId(url));
+			}
+			
+			// display the selected photo in the photo viewer
+			private function showLargePhoto(photoXml:XML):void
+			{
+				photoDetails.text = photoXml.description + " - " + photoXml.credit;
+				photoImage.source = photoXml.url;
+			}
+			
+			private function nextBtnVisible():Boolean
+			{
+				if ((selectedPhotoIndex < 4) && (selectedPhotoIndex < myXML.photo.length()-1)){
+					return true;
+				}
+				return false;
+			}
+			
+			private function prevBtnVisible():Boolean
+			{
+				if (selectedPhotoIndex == 0){
+					return false;
+				}
+				return true;
+			}
+			
+			private function nextBtnClick(evt:Event):void
+			{
+				selectedPhotoIndex++;
+				nextPhotoBtn.visible = nextBtnVisible();
+				prevPhotoBtn.visible = prevBtnVisible();
+			}
+			private function prevBtnClick(evt:Event):void
+			{
+				selectedPhotoIndex--;
+				nextPhotoBtn.visible = nextBtnVisible();
+				prevPhotoBtn.visible = prevBtnVisible();
+			}
+        ]]>
+    </mx:Script>
+
+	<mx:DateFormatter id="dateFormatter" formatString="NN:SS" />
+	<mx:TabNavigator id="mpaTabs" width="100%" height="100%" borderStyle="solid" change="onTabClick(event)" tabStyleName="tabStyle">     
+	<!-- Photos Tab --> 
+		<!-- Large image with previous/next buttons for navigation -->   
+        <mx:VBox label="Photos" id="photosTab" verticalGap="10"
+        	horizontalAlign="center" paddingRight="10" paddingLeft="10">
+		     <mx:Image id="photoImage" source="{myXML.photo[selectedPhotoIndex].url}" maintainAspectRatio="true"
+		                completeEffect="Fade" width="90%" height="90%" horizontalAlign="center"/>
+		    <mx:HBox>
+		     <mx:Button id="prevPhotoBtn" label="previous" click="{prevBtnClick(event)}" visible="false"
+		     	icon="@Embed(source='images/resultset_previous.png')" labelPlacement="right"/>
+		     <mx:Text id="photoDetails" 
+		     	text="{myXML.photo[selectedPhotoIndex].description} - {myXML.photo[selectedPhotoIndex].credit} ({selectedPhotoIndex+1} of {myXML.photo.length()})"
+		        textAlign="center" styleName="photoDetails" width="300" />
+		     <mx:Button id="nextPhotoBtn" label="next" click="{nextBtnClick(event)}"
+		     	icon="@Embed(source='images/resultset_next.png')" labelPlacement="left"/>
+		     </mx:HBox>
+		    <mx:Button label="Button" click="player.dispose()"/>
+		     <mx:LinkButton id="morePhotos" label="More Photos" visible="{(myXML.photo.length() > 5)}"/>
+		 </mx:VBox>
+		 <!-- Image gallery -->
+        	<!-- Large selected image --> 
+ <!--       <mx:VBox label="Photos" id="photosTab" verticalGap="0" horizontalGap="0" width="100%" horizontalAlign="center">    
+ 				<mx:Canvas width="85%" height="70%">
+		        <mx:VBox id="largeView" paddingBottom="10" paddingTop="10" width="100%" height="100%" verticalGap="0" horizontalAlign="center" horizontalCenter="0">
+		            <mx:Image id="photoImage" source="{myXML.photo[0].url}"
+		                maintainAspectRatio="true"
+		                verticalAlign="bottom" horizontalAlign="center" 
+		                width="100%" height="100%" 
+		                completeEffect="Fade" />
+		        
+		            <mx:Text id="photoDetails" text="{myXML.photo[0].description} - {myXML.photo[0].credit}"
+		                textAlign="center" styleName="photoDetails" />
+		        </mx:VBox>
+		    </mx:Canvas> -->
+		    <!-- Thumbnail gallery -->
+<!--		    <mx:VBox styleName="thumbnailListBorderBox" width="425"
+		        verticalGap="2" horizontalAlign="center" verticalScrollPolicy="off"
+		        borderStyle="solid" cornerRadius="10" verticalAlign="bottom" paddingTop="5" paddingBottom="5">  
+		        <mx:HBox>
+			        <mx:Repeater id="photo" dataProvider="{myXML.photo}" count="5">
+		                <mx:VBox id="photoList" height="75" width="75" horizontalAlign="center"
+		 					verticalScrollPolicy="off" horizontalScrollPolicy="off" paddingRight="5" verticalGap="1">
+		            		<mx:Text text="{photo.currentIndex+1} of {myXML.photo.length()}" fontSize="10"/>
+							<mx:Image horizontalAlign="center" verticalAlign="middle" 
+								height="100%" width="100%" source="{photo.currentItem.url}" 
+								toolTip="{photo.currentItem.description}" click="showLargePhoto(event.currentTarget.getRepeaterItem())"/>
+		                </mx:VBox>
+	           		</mx:Repeater>	
+		        </mx:HBox>
+		        <mx:LinkButton id="morePhotos" label="More Photos" visible="{(myXML.photo.length() > 5)}"/>
+		   </mx:VBox> 
+		</mx:VBox>-->
+        
+	<!-- Videos Tab -->
+        <mx:VBox label="Videos" id="videosTab" horizontalScrollPolicy="off"
+        	verticalGap="0" horizontalGap="0" width="100%" horizontalAlign="center">
+        	<!-- Video player --> 
+			<yt:YTPlayer
+				id="player" 
+				monitorPlayback="true"
+				videoCurrentTime="updateVideoTime(event)"
+				developerKey="AI39si6Ej_jlNIHK2U71W0rWVOMIpnwujdc7_xXS5ktysCjxgc16cOOKBZYXhlqqn3ymnYwv6l16MrtYk9UORTwGZ_gwnM4nhQ"
+			/>
+			<!-- Video controls (play/pause, stop, time) -->
+			<mx:VBox width="320" paddingBottom="10">
+				<mx:HBox id="controls" styleName="controllerStyle" width="100%">
+					<mx:Button id="playPauseButton" styleName="playPauseStyle" toggle="true" selected="{player.isPauseable}" 
+						click="playPauseButton_click(event)" />
+					<mx:Button id="stopButton" styleName="stopStyle" click="stopButton_click(event)" />
+					<mx:Spacer width="100%"/>
+					<mx:Label id="time" styleName="timeStyle"/>
+				</mx:HBox>
+			</mx:VBox> 
+			<!-- Video list --> 
+            <mx:Repeater id="video" dataProvider="{myXML.video}" count="2">
+                <mx:VBox id="videoList" width="320" horizontalAlign="center" paddingBottom="5">
+            		<mx:Button width="100%" styleName="videoBtnStyle" 
+            			label="{video.currentItem.description} - {video.currentItem.credit} ({video.currentIndex+1} of {myXML.video.length()})" 
+            			click="loadNewVideo(event.currentTarget.getRepeaterItem().url)"
+            			icon="@Embed(source='images/film_go.png')"/>
+                </mx:VBox>
+           	</mx:Repeater>
+           	<mx:LinkButton id="moreVideos" label="More Videos" visible="{(myXML.video.length() > 2)}" />
+        </mx:VBox>
+
+	<!-- Stories Tab -->
+        <mx:VBox label="Stories" id="storiesTab" verticalGap="0" horizontalGap="0" width="100%">
+            <!-- List of stories -->
+            <mx:VBox width="100%" id="storiesList" horizontalAlign="center"
+            	paddingBottom="10" paddingTop="10">
+            	<mx:Repeater id="story" dataProvider="{myXML.story}" count="5">
+            		<mx:HBox styleName="moreInfoStyle">
+            			<mx:Text text="{story.currentItem.snippet}" width="350" />
+            			<mx:VBox horizontalAlign="center">
+            				<mx:Text text="({story.currentIndex+1} of {myXML.story.length()})" />
+            				<mx:LinkButton label="Read More" 
+            					click="{navigateToURL(new URLRequest(event.currentTarget.getRepeaterItem().url), '_blank');}"/>
+            			</mx:VBox>
+            		</mx:HBox>
+            	</mx:Repeater>
+            	<mx:LinkButton id="moreStories" label="More Stories" visible="{(myXML.story.length() > 5)}" />
+            </mx:VBox>
+        </mx:VBox>
+        
+	<!-- Science Tab -->
+    	<mx:VBox label="Science" id="scienceTab" verticalAlign="middle" horizontalAlign="middle" width="100%">
+            <!-- Science of Marine Reserves content -->
+            <component:SoMRVisWrapper url="{myXML.somrData}" width="450" height="370" id="visWrapper" styleName="thumbnailListBorderBox" borderStyle="solid" cornerRadius="10" />
+        </mx:VBox>
+
+	<!-- More Tab -->
+        <mx:VBox label="More" id="moreTab" verticalGap="0" horizontalGap="0" width="100%">
+        	<!-- About links, more maps info --> 
+	        <mx:VBox paddingLeft="3" horizontalAlign="center" width="100%">
+	            <mx:Button id="aboutMpa" label="About this MPA" styleName="moreBtnStyle"
+	                click="{navigateToURL(new URLRequest(myXML.learnMoreLinks.mpaUrl), '_blank');}" 
+	                icon="@Embed(source='images/page_white_star.png')"/>
+	            <mx:Button id="aboutRegion" label="About this region" styleName="moreBtnStyle"
+	                click="{navigateToURL(new URLRequest(myXML.learnMoreLinks.regionUrl), '_blank');}" 
+	                icon="@Embed(source='images/page_white_world.png')"/>
+	            <mx:Button id="aboutOcean" label="About the ocean" styleName="moreBtnStyle"
+	                click="{navigateToURL(new URLRequest(myXML.learnMoreLinks.oceanUrl), '_blank');}" 
+	                icon="@Embed(source='images/page_white_swoosh.png')"/>
+	            <mx:Button id="moreMaps" label="Maps" visible="{(myXML.mapLink.length() > 0)}"
+	                click="moreDetailStack.selectedChild=moreMapInfo;" styleName="moreBtnStyle"
+	                icon="@Embed(source='images/google_earth_link.gif')"/>
+	        </mx:VBox>
+			<!-- List of additional map info --> 
+	        <mx:ViewStack id="moreDetailStack" width="100%" height="100%">
+	        	<mx:Canvas id="empty" label="Empty" width="100%" height="100%">
+	            </mx:Canvas>
+	            <mx:Canvas id="moreMapInfo" label="Maps">
+	                <mx:VBox width="100%" id="mapLinks" horizontalAlign="center"
+                    	paddingBottom="5" paddingLeft="5" paddingRight="5" paddingTop="10" >
+                    	<mx:Repeater id="mapLink" dataProvider="{myXML.mapLink}" count="2">
+                    		<mx:HBox styleName="moreInfoStyle">
+	                    		<mx:Text text="{mapLink.currentItem.snippet}" width="350"/>
+	                    		<mx:VBox horizontalAlign="center">
+		            				<mx:Text text="({mapLink.currentIndex+1} of {myXML.mapLink.length()})" />
+		            				<mx:LinkButton label="View Map"
+		            					click="{navigateToURL(new URLRequest(event.currentTarget.getRepeaterItem().url), '_blank');}"/>
+		            			</mx:VBox>
+                    		</mx:HBox>
+                    	</mx:Repeater>
+                    	<mx:LinkButton id="moreMapsLink" label="More Maps" visible="{(myXML.mapLink.length() > 2)}" />
+                    </mx:VBox>
+	            </mx:Canvas>
+	        </mx:ViewStack>
+        </mx:VBox>
+		
+    </mx:TabNavigator>
+
+</mx:Application>
+
+

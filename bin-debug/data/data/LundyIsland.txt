@@ -1,0 +1,93 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Lundy.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/lundy/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+            "citation": "Hoskin et al. (2011) Canadian Journal of Fisheries and Aquatic Sciences", 
+			"direct_link": "http://www.ingentaconnect.com/content/nrc/cjfas/2011/00000068/00000002/art00001",
+            "density": 5.54214659641169, 
+            "display_name": "legal-sized european lobster (Homarus gammarus)", 
+            "organisms": [
+                {
+                    "family": "Nephropidae", 
+                    "genus": "Homarus", 
+                    "info_url": "http://en.wikipedia.org/wiki/Homarus_gammarus", 
+                    "mass": 2.0,  
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":140,
+					"horizon_angle":0,
+                    "relative_abundance": 0.5, 
+                    "relative_size": 1.500000000000001, 
+                    "species": "gammarus", 
+                    "swf": "data/fish/Homarus_gammarus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.09066479727612	
+		},
+		{
+            "biomass": 1.0, 
+            "citation": "Hoskin et al. (2011) Canadian Fisheries and aquatic sciences", 
+            "density": 0.31515199181234, 
+            "display_name": "velvet swimming crab (Necora puber)", 
+            "organisms": [
+                {
+                    "a": 0.0048, 
+                    "b": 3.378, 
+                    "family": "Portunidae", 
+                    "genus": "Necora", 
+                    "info_url": "http://www.marlin.ac.uk/speciesinformation.php?speciesID=3858", 
+                    "mass": 1.0,  
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":140,
+					"horizon_angle":0,
+                    "relative_abundance": 1.0, 
+                    "relative_size": 0.69999999999999996, 
+                    "species": "puber", 
+                    "swf": "data/fish/Necora_puber.swf"
+                }				
+				], 
+            "richness": 1.0, 
+            "size": 0.953269411992727
+		} ,
+		{
+            "biomass": 1.0, 
+            "citation": "Hoskin et al. (2011) Canadian Fisheries and aquatic sciences", 
+            "density": 1, 
+            "display_name": "brown crab (Cancer pagurus)", 
+            "organisms": [
+                {
+                    "a": 0.0048, 
+                    "b": 3.378, 
+                    "family": "Cancridae", 
+                    "genus": "Cancer", 
+                    "info_url": "http://en.wikipedia.org/wiki/Cancer_pagurus", 
+                    "mass": 0.59999999999999998,  
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":140,
+					"horizon_angle":0,
+                    "relative_abundance": 1.5, 
+                    "relative_size": 0.69999999999999996, 
+                    "species": "pagurus", 
+                    "swf": "data/fish/Cancer_pagurus.swf"
+                }				
+				], 
+            "richness": 1.0, 
+            "size": 1.08436435767432
+		}
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Lundy Island, UK", 
+    "org_scale": 1.0, 
+    "point": "24.5870903392,-82.7709960938", 
+    "summary": "",
+    "byline": "Commercially important fishes increased inside this marine reserve, where they were protected from fishing."
+}

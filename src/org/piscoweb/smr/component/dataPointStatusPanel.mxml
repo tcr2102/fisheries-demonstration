@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas creationComplete="setup()" horizontalScrollPolicy="off" verticalScrollPolicy="off" xmlns:mx="http://www.adobe.com/2006/mxml" height="70" width="100%" backgroundColor="#0D353A" xmlns:ns1="org.piscoweb.smr.component.*">
+	<mx:Script>
+		<![CDATA[
+			import mx.effects.Move;
+			
+			import org.piscoweb.smr.data.DataPoint;
+			import org.piscoweb.smr.data.Location;
+			[Bindable]
+			private var _dataPoint:DataPoint;
+			
+			private var _expanded:Boolean = false;
+			private var _display:Boolean;
+			private var moveEffect:Move = new Move(this);
+			
+			[Bindable]
+			public var location:Location;
+			
+			private function setup():void
+			{
+				moveEffect.yFrom = this.y;
+				moveEffect.yTo = this.y + this.height - 3;
+				moveEffect.duration = 500;
+//				this.cacheAsBitmap = true;
+			}
+			
+			[Bindable]
+			public function get dataPoint():DataPoint
+			{
+				return _dataPoint;
+			}
+			
+			public function set dataPoint(dp:DataPoint):void
+			{
+				_dataPoint = dp;
+			}
+			
+			private function setContent():void
+			{
+				var s:String = "On average, "
+				var sDN:String = dataPoint.displayName;
+				var aDN1:Array = sDN.split("(");
+				if (aDN1.length == 2){
+					var aDN2:Array = aDN1[1].split(")");
+					if (aDN2.length==2){
+						if(aDN2[0] == "")s+=aDN1[0];
+						else s+=aDN1[0]+"(<i>"+aDN2[0]+"</i>)";
+					}
+					else s+="<i>"+dataPoint.displayName+"</i>";
+				}
+				else s+="<i>"+dataPoint.displayName+"</i>";
+				
+				if(dataPoint.biomass > 1.05 || dataPoint.biomass < 0.95){
+					var biomass:int = DataPoint.toPercent(dataPoint.biomass, true);
+					var verb:String = DataPoint.toVerb(dataPoint.biomass, true);
+					s = s + " biomass " +verb+ " "+biomass.toString() + "%";
+					if(dataPoint.density > 1.05 || dataPoint.density < 0.95){
+						var density:int = DataPoint.toPercent(dataPoint.density, true);
+						var verb:String = DataPoint.toVerb(dataPoint.density, true);
+						s = s + " and numbers " +verb+ " " + density.toString() + "%"
+					}
+					if(dataPoint.richness > 1.01 || dataPoint.richness < 0.99){
+							var density:int = DataPoint.toPercent(dataPoint.richness, true);
+							var verb:String = DataPoint.toVerb(dataPoint.richness, true);
+							s = s + " and species diversity " +verb+ " " + density.toString() + "%"
+					}
+				}else if(dataPoint.density > 1.05 || dataPoint.density < 0.95){
+					var density:int = DataPoint.toPercent(dataPoint.density, true);
+					var verb:String = DataPoint.toVerb(dataPoint.density, true);
+					s = s + " numbers " +verb+ " " + density.toString() + "%";
+					if(dataPoint.size > 1.05 || dataPoint.size < 0.95){
+						var density:int = DataPoint.toPercent(dataPoint.size, true);
+						var verb:String = DataPoint.toVerb(dataPoint.size, true);
+						s = s + " and size " +verb+ " " + density.toString() + "%";
+					}
+				}
+				else if(dataPoint.size > 1.05 || dataPoint.size < 0.95){
+					var density:int = DataPoint.toPercent(dataPoint.size, true);
+					var verb:String = DataPoint.toVerb(dataPoint.size, true);
+					s = s + " size " +verb+ " " + density.toString() + "%";
+				}
+				
+				s = s + " inside this Marine Reserve";
+				content.htmlText = s;
+				if(location && location.caseStudyUrl){
+					var casetext:String = "Click on the organism to see more information from a Case Study";
+					var h:String = '<a href="'+escape(location.caseStudyUrl)+'">'+casetext+'</a>';
+					caseStudyLink.htmlText =  h
+				}else{
+					caseStudyLink.htmlText = '';
+				}
+			}
+			
+			[Bindable]
+			public function set display(on:Boolean):void
+			{
+				if(on){
+					setContent();
+//					trace('expanding');
+					if(moveEffect.isPlaying){
+						moveEffect.reverse()
+					}else{
+						moveEffect.play();
+					}
+				}else{
+//					trace('contracting');
+					if(moveEffect.isPlaying){
+						moveEffect.reverse();
+					}else{
+						moveEffect.play(null, true);
+					}
+				}
+//				this.cacheAsBitmap = false;
+				_display = on;
+			}
+			
+			public function get display():Boolean
+			{
+				return _display;
+			}
+			
+			
+			
+//			public function hide():void
+//			{
+//				
+//			}
+//			
+//			public function show():void
+//			{
+//				
+//			}
+//			
+//			public function expand():void
+//			{
+//				
+//			}
+//			
+//			public function contract():void
+//			{
+//				if(_expanded){
+//					moveEffect.reverse();
+//					_expanded = false;
+//				}
+//			}
+		]]>
+	</mx:Script>
+	<mx:VBox width="100%" horizontalScrollPolicy="off" verticalScrollPolicy="off" height="100%">
+		<mx:Text width="90%" paddingTop="5" paddingBottom="-8" paddingLeft="5" paddingRight="5" id="content" fontSize="12" color="#EBFBFF" fontWeight="bold" fontFamily="Arial" />
+		<mx:Text click="navigateToURL(new URLRequest(location.caseStudyUrl))" width="90%" id="caseStudyLink" paddingLeft="5" paddingRight="5"  color="#FFFFF8" fontFamily="Arial"/>
+	</mx:VBox>
+</mx:Canvas>

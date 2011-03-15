@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:yt="ytplayer.*"
+	horizontalGap="30" 
+	borderStyle="solid"
+	borderThickness="3"
+	verticalScrollPolicy="off"
+	horizontalScrollPolicy="off">
+
+<mx:NumberFormatter id="timeFormatter" precision="1" 
+        useThousandsSeparator="true" />
+        
+	<mx:VBox>
+	
+		<mx:Button label="Remove Me">
+			<mx:click>
+				<![CDATA[
+					player.dispose();
+					parent.removeChild(this);
+				]]>
+			</mx:click>
+		</mx:Button>
+	
+		<mx:HBox>
+			<mx:TextInput id="seekTo" text="0" maxChars="5" restrict="0123456789"/>
+			<mx:Button 
+				label="Seek"
+				click="player.seek = int(seekTo.text)"/>
+		</mx:HBox>
+	
+		<mx:HBox verticalAlign="middle">
+			<mx:Label text="Volume"/>
+			<mx:HSlider 
+				id="volCtl" 
+				change="player.volume=volCtl.value" 
+				minimum="0" 
+				maximum="100"
+				snapInterval="1"
+				liveDragging="true" 
+				value="{player.volume}"/>
+			<mx:CheckBox 
+				id="muteBtn" 
+				label="Mute" 
+				selected="{player.muted}" 
+				change="player.muted = muteBtn.selected"/>
+		</mx:HBox>
+	
+		<mx:HBox>
+			<mx:Label text="Player Size:"/>	
+			<mx:HSlider id="sizeCtl" minimum="75" maximum="600" snapInterval="1" value="200" 
+				change="box.width=sizeCtl.value;box.height=sizeCtl.value*3/4;"
+				liveDragging="true"/>
+		</mx:HBox>	
+	
+		<mx:HBox>
+			<mx:Label text="{'Duration: ' + timeFormatter.format(player.duration)}"/>
+			<mx:Label text="{'Current Time: ' + timeFormatter.format(player.currentTime)}"/>
+		</mx:HBox>
+	
+		<mx:Label text="{'Player State: ' + player.playerStateText}"/>
+	
+		<mx:HBox dropShadowEnabled="true" borderStyle="solid" cornerRadius="5">
+			<mx:LinkButton 
+				label="Play" 
+				click="player.playVideo()" 
+				enabled="{player.isPlayable}"/>
+			<mx:LinkButton 
+				label="Pause" 
+				click="player.pauseVideo()" 
+				enabled="{player.isPauseable}"/>
+			<mx:LinkButton
+				label="Stop"
+				click="player.stopVideo()"
+				enabled="{player.playerState != YTPlayer.UNSTARTED}"/>
+			<mx:LinkButton
+				label="Clear"
+				click="player.clearVideo()"
+				enabled="{player.playerState == YTPlayer.UNSTARTED}"/>
+		</mx:HBox>
+		
+	</mx:VBox>	
+ 
+	<mx:Box id="box" 
+		borderStyle="solid" 
+		dropShadowEnabled="true" 
+		borderThickness="2"
+		width="200" height="170" >
+		<yt:YTPlayer
+			id="player" 
+			height="100%"
+			width="100%"
+			monitorPlayback="true"
+			developerKey="INSERT HERE"
+		/>
+	</mx:Box>
+</mx:HBox>

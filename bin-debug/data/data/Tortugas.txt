@@ -1,0 +1,79 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Sponge Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Tortugas.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/drytortugas/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+            "citation": "Ault et al (2006) Bulletin of Marine Science",
+			"direct_link":"http://orst.library.ingentaconnect.com/content/umrsmas/bullmar/2006/00000078/00000003/art00014", 
+            "density": 1.5230914231899999, 
+            "display_name": "fish", 
+            "organisms": [
+                {
+                    "a": 0.023599999999999999, 
+                    "b": 2.9750000000000001, 
+                    "family": "Acanthuridae", 
+                    "genus": "Acanthurus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=942", 
+                    "mass": 0.59999999999999998, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.1000000000000001, 
+                    "relative_size": 0.69999999999999996, 
+                    "species": "bahianus", 
+                    "swf": "data/fish/Acanthurus_bahianus.swf"
+                }, 
+                {
+                    "a": 0.018200000000000001, 
+                    "b": 3.1520000000000001, 
+                    "family": "Pomacentridae", 
+                    "genus": "Stegastes", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=3652", 
+                    "mass": 0.29999999999999999, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 0.5, 
+                    "species": "partitus", 
+                    "swf": "data/fish/Stegastes_partitus.swf"
+                }, 
+                {
+                    "a": 0.011299999999999999, 
+                    "b": 3.0499999999999998, 
+                    "family": "Lutjanidae", 
+                    "genus": "Lutjanus", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1403", 
+                    "mass": 2.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.6000000000000001, 
+                    "species": "analis", 
+                    "swf": "data/fish/Lutjanus_analis.swf"
+                }, 
+                {
+                    "a": 0.011299999999999999, 
+                    "b": 3.0499999999999998, 
+                    "family": "Serranidae", 
+                    "genus": "Mysteroperca", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1209", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.29999999999999999, 
+                    "relative_size": 2.0, 
+                    "species": "bonaci", 
+                    "swf": "data/fish/Mysteroperca_bonaci.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Tortugas Bank, USA", 
+    "org_scale": 1.0, 
+    "point": "24.5870903392,-82.7709960938", 
+    "summary": "",
+    "byline": "Commercially important fishes increased inside this marine reserve, where they were protected from fishing."
+}

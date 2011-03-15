@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="56" height="70" backgroundAlpha="0.0">
+	<mx:Script>
+		<![CDATA[
+			import org.piscoweb.smr.data.RatioMeasure;
+			[Bindable]
+			public var ratioMeasure:RatioMeasure;
+		]]>
+	</mx:Script>
+	<mx:VBox verticalCenter="-0" horizontalCenter="0" verticalGap="-5">
+		<mx:Text x="0" text="{ratioMeasure.ratio + 'x'}" width="56" paddingBottom="0" fontSize="20" fontWeight="bold" fontFamily="Arial" verticalCenter="0" color="#FFFFFF"/>
+		<mx:Text text="{ratioMeasure.name}" width="100%" textAlign="center" paddingTop="0" fontFamily="Arial" verticalCenter="0" horizontalCenter="0" color="#FFFFFF"/>
+	</mx:VBox>
+</mx:Canvas>
