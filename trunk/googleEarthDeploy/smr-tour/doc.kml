@@ -9,14 +9,14 @@
         <p>Click on the links below or in your sidebar to view these Marine Reserves.</p>
         <a href="#Apo;balloonFlyto">Apo Island, Philippines</a><br />
         <a href="#Sumilon;balloonFlyto">Sumilon, Philippines</a><br />
-        <a href="#CINMS;balloonFlyto">Channel Islands, California, USA</a><br />
+        <a href="#Lundy;balloonFlyto">Lundy Island, UK</a><br />
+		<a href="#CINMS;balloonFlyto">Channel Islands, California, USA</a><br />
         <a href="#Tortugas;balloonFlyto">Dry Tortugas, Florida, USA</a><br />
+		<a href="#GBR;balloonFlyto">Great Barrier Reef Marine Park, Australia</a><br />
         <a href="#TorreGuaceto;balloonFlyto">Torre Guaceto, Italy</a><br />
-		<a href="#Lundy;balloonFlyto">Lundy Island, UK</a><br />
-		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
-		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />
 		<a href="#Cabo;balloonFlyto">Cabo de Palos, Spain</a><br />
-        <a href="#GBR;balloonFlyto">Great Barrier Reef Marine Park, Australia</a><br />]]></description>
+		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
+		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />]]></description>
 	<styleUrl>#SMRTourStart</styleUrl>
 	<StyleMap id="SMRTourStyle20">
 		<Pair>
@@ -140,7 +140,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Apo.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Tortugas</value>
+				<value>CBMR</value>
 			</Data>
 			<Data name="next">
 				<value>Sumilon</value>
@@ -170,28 +170,28 @@
 				<value>Apo</value>
 			</Data>
 			<Data name="next">
-				<value>GBR</value>
+				<value>Lundy</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>123.38,9.42,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="GBR">
-		<name>Great Barrier Reef Marine Park, Australia</name>
-		<description>Created in 1975, the Great Barrier Reef Marine Park covers 344,400 square kilometers along Australia’s northeastern coast. The Park Authority recognized it was important to increase the total area protected using the best available science and input from the public. In 2004, the new zoning plan protected more than 33% of the park as marine reserves. Well-defined scientific guidelines and careful consideration of stakeholder interests contributed to the success of this planning process. New data show that the responses to this increase in no-take protection were rapid and positive: coral trout, an important commercial species, increased by 57–75% inside marine reserves in 6 of 8 regions in the Great Barrier Reef. Here we show data from the Keppel Islands, a nearshore region of the Great Barrier Reef.</description>
+	<Placemark id="Lundy">
+		<name>Lundy, UK</name>
+		<description>Established in 2003 as the first marine reserve in the United Kingdom, Lundy serves as an important example of the conservation benefits of well-managed reserves for northern European waters. The reserve protects species living in diverse habitats, including rocky reefs, sea caves, underwater canyons, and sandy bottoms. While the reserve is relatively small, a rapid increase in lobster size and abundance observed by scientists suggests that even a small reserve can benefit some species. Over time, further increases in size and biomass may boost the number of lobsters migrating to areas outside the reserve, which would benefit the local fishery.</description>
 		<LookAt>
-			<longitude>152.5678350035686</longitude>
-			<latitude>-20.84023824527308</latitude>
+			<longitude>-4.701389</longitude>
+			<latitude>51.171667</latitude>
 			<altitude>0</altitude>
-			<range>1110062.895141029</range>
-			<tilt>37.4535036367706</tilt>
-			<heading>-26.18843958339748</heading>
+			<range>50000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>-14.06967305965687</heading>
 		</LookAt>
 		<styleUrl>#SMRTourStyle20</styleUrl>
 		<ExtendedData>
 			<Data name="url">
-				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Keppel.txt</value>
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/LundyIsland.txt</value>
 			</Data>
 			<Data name="previous">
 				<value>Sumilon</value>
@@ -201,7 +201,7 @@
 			</Data>
 		</ExtendedData>
 		<Point>
-			<coordinates>151.4676715627275,-21.73745963702761,0</coordinates>
+			<coordinates>-4.701389,51.171667</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="CINMS">
@@ -221,7 +221,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Channel.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>GBR</value>
+				<value>Lundy</value>
 			</Data>
 			<Data name="next">
 				<value>Tortugas</value>
@@ -251,11 +251,38 @@
 				<value>CINMS</value>
 			</Data>
 			<Data name="next">
-				<value>TorreGuaceto</value>
+				<value>GBR</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>-82.89487633762275,24.65858828714723,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="GBR">
+		<name>Great Barrier Reef Marine Park, Australia</name>
+		<description>Created in 1975, the Great Barrier Reef Marine Park covers 344,400 square kilometers along Australia’s northeastern coast. The Park Authority recognized it was important to increase the total area protected using the best available science and input from the public. In 2004, the new zoning plan protected more than 33% of the park as marine reserves. Well-defined scientific guidelines and careful consideration of stakeholder interests contributed to the success of this planning process. New data show that the responses to this increase in no-take protection were rapid and positive: coral trout, an important commercial species, increased by 57–75% inside marine reserves in 6 of 8 regions in the Great Barrier Reef. Here we show data from the Keppel Islands, a nearshore region of the Great Barrier Reef.</description>
+		<LookAt>
+			<longitude>152.5678350035686</longitude>
+			<latitude>-20.84023824527308</latitude>
+			<altitude>0</altitude>
+			<range>1110062.895141029</range>
+			<tilt>37.4535036367706</tilt>
+			<heading>-26.18843958339748</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Keppel.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>Tortugas</value>
+			</Data>
+			<Data name="next">
+				<value>TorreGuaceto</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.4676715627275,-21.73745963702761,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="TorreGuaceto">
@@ -275,31 +302,31 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/TorreGuaceto.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Tortugas</value>
+				<value>GBR</value>
 			</Data>
 			<Data name="next">
-				<value>Lundy</value>
+				<value>Cabo</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>17.799178,40.716814</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="Lundy">
-		<name>Lundy, UK</name>
-		<description>Established in 2003 as the first marine reserve in the United Kingdom, Lundy serves as an important example of the conservation benefits of well-managed reserves for northern European waters. The reserve protects species living in diverse habitats, including rocky reefs, sea caves, underwater canyons, and sandy bottoms. While the reserve is relatively small, a rapid increase in lobster size and abundance observed by scientists suggests that even a small reserve can benefit some species. Over time, further increases in size and biomass may boost the number of lobsters migrating to areas outside the reserve, which would benefit the local fishery.</description>
+	<Placemark id="Cabo">
+		<name>Cabo de Palos, Spain</name>
+		<description>The Cabo de Palos reserve in Spain was established in 1995 and is one of 54 reserves in the Mediterranean Sea. Scientists have observed that fish biomass, abundance, and species richness are higher within the Cabo de Palos reserve compared to fished areas nearby. These studies also give evidence that fish are ‘spilling-over’ from Cabo de Palos reserve to fished areas. This general pattern has been found for a number of western Mediterranean reserves and indicates the benefits of marine reserves for species, ecosystems, and local fisheries.</description>
 		<LookAt>
-			<longitude>-4.701389</longitude>
-			<latitude>51.171667</latitude>
+			<longitude>-0.666111</longitude>
+			<latitude>37.627778</latitude>
 			<altitude>0</altitude>
-			<range>50000</range>
+			<range>40000</range>
 			<tilt>24.07688567711139</tilt>
 			<heading>-14.06967305965687</heading>
 		</LookAt>
 		<styleUrl>#SMRTourStyle20</styleUrl>
 		<ExtendedData>
 			<Data name="url">
-				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/LundyIsland.txt</value>
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/CabodePalos.txt</value>
 			</Data>
 			<Data name="previous">
 				<value>TorreGuaceto</value>
@@ -309,7 +336,7 @@
 			</Data>
 		</ExtendedData>
 		<Point>
-			<coordinates>-4.701389,51.171667</coordinates>
+			<coordinates>-0.666111,37.627778</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="Cabrera">
@@ -329,7 +356,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Cabrera.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Lundy</value>
+				<value>Cabo</value>
 			</Data>
 			<Data name="next">
 				<value>CBMR</value>
@@ -359,40 +386,12 @@
 				<value>Cabrera</value>
 			</Data>
 			<Data name="next">
-				<value>Cabo</value>
+				<value>Apo</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>3.185278,42.450278</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="Cabo">
-		<name>Cabo de Palos, Spain</name>
-		<description>The Cabo de Palos reserve in Spain was established in 1995 and is one of 54 reserves in the Mediterranean Sea. Scientists have observed that fish biomass, abundance, and species richness are higher within the Cabo de Palos reserve compared to fished areas nearby. These studies also give evidence that fish are ‘spilling-over’ from Cabo de Palos reserve to fished areas. This general pattern has been found for a number of western Mediterranean reserves and indicates the benefits of marine reserves for species, ecosystems, and local fisheries.</description>
-		<LookAt>
-			<longitude>-0.666111</longitude>
-			<latitude>37.627778</latitude>
-			<altitude>0</altitude>
-			<range>40000</range>
-			<tilt>24.07688567711139</tilt>
-			<heading>-14.06967305965687</heading>
-		</LookAt>
-		<styleUrl>#SMRTourStyle20</styleUrl>
-		<ExtendedData>
-			<Data name="url">
-				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/CabodePalos.txt</value>
-			</Data>
-			<Data name="previous">
-				<value>CBMR</value>
-			</Data>
-			<Data name="next">
-				<value>Apo</value>
-			</Data>
-		</ExtendedData>
-		<Point>
-			<coordinates>-0.666111,37.627778</coordinates>
-		</Point>
-	</Placemark>
-	
 </Document>
 </kml>
