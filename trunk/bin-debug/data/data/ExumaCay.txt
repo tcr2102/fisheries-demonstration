@@ -1,0 +1,104 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectedplanet.net/sites/2228", 
+    "data_points": [
+        {
+            "biomass": 3.484710018, 
+            "citation": "Chiappone et al (2000) Marine Ecology Progress Series", 
+			"direct_link":"http://www.int-res.com/articles/meps/198/m198p261.pdf",
+            "density": 1.94444444444444, 
+            "display_name": "Nassau Grouper", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Epinephelus", 
+                    "info_url": "http://www.fishbase.org/summary/Epinephelus-striatus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.29999999999999999, 
+                    "relative_size": 2.5, 
+                    "species": "striatus", 
+                    "swf": "data/fish/Epinephelus_striatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.20287769784173
+        }, 
+        {
+            "biomass": 0.585209003, 
+            "citation": "Chiappone et al (2000) Marine Ecology Progress Series", 
+            "density": 0.710526315789474, 
+            "display_name": "Graysby", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Cephalopholis", 
+                    "info_url": "http://www.fishbase.org/summary/speciessummary.php?id=12", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 1.0, 
+                    "species": "cruentata", 
+                    "swf": "data/fish/Cephalopholis_sexmaculata.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 0.893371757925072
+        }, 
+        {
+            "biomass": 1.0, 
+            "citation": "Mumby et al (2006) Science", 
+            "density": 1.74252873563218, 
+            "display_name": "Parrotfish", 
+            "organisms": [
+                {
+                    "family": "Scaridae", 
+                    "genus": "Parrotfish", 
+                    "info_url": "http://fishbase.org/summary/Sparisoma-viride.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.5, 
+                    "species": "spp.", 
+                    "swf": "data/fish/Sparisoma_viride.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.084
+        }, 
+        {
+            "biomass": 1.0, 
+            "citation": "Mumby et al (2006) Science", 
+            "density": 0.178787879, 
+            "display_name": "Algae", 
+            "organisms": [
+                {
+                    "family": "Algae", 
+                    "genus": "Algae", 
+                    "info_url": "http://www.springerlink.com/content/dnk1amt37jq9ru71/",
+					"org_type": "algae",
+					"org_placement":"below",
+					"placement_horizon":150,
+					"horizon_angle": 0.25, 
+                    "relative_abundance": 5, 
+                    "relative_size": 0.7, 
+                    "mass": 50000, 
+                    "species": "spp.", 
+                    "swf": "data/fish/Branching_algae.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 0.5
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Exuma Cay", 
+    "org_scale": 0.80000000000000004, 
+    "point": "24.5,-76.833", 
+    "summary": "",
+    "byline": "The protection of Exuma Cay led to the return of overfished top predators and an increase in herbivorous fish that dramatically reduced harmful algae cover."
+}
