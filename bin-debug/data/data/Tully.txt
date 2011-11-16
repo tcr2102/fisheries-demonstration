@@ -1,0 +1,109 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Temperate Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Channel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/CaseStudiesHome.html", 
+    "data_points": [
+        {
+            "biomass": 2.5899999999999999, 
+            "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences", 
+			"direct_link": "http://www.pnas.org/content/107/43/18272", 
+            "density": 1.0, 
+            "display_name": "Piscivore (fish eater)", 
+            "organisms": [
+                {
+                    "a": 0.0027000000000000001, 
+                    "b": 3.27, 
+                    "family": "Serranidae", 
+                    "genus": "Paralabrax", 
+                    "info_url": "http://www.fishbase.org/Summary/SpeciesSummary.php?ID=3335", 
+                    "mass": 1.7, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.69999999999999996, 
+                    "relative_size": 1.5, 
+                    "species": "clathratus", 
+                    "swf": "data/fish/Paralabrax_clathratus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.02, 
+            "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences", 
+            "density": 1.0, 
+            "display_name": "Planktivore", 
+            "organisms": [
+                {
+                    "a": 0.020199999999999999, 
+                    "b": 2.9594999999999998, 
+                    "family": "Pomacentridae", 
+                    "genus": "Chromis", 
+                    "info_url": "http://www.fishbase.org/Summary/SpeciesSummary.php?id=3646", 
+                    "mass": 0.5, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 0.59999999999999998, 
+                    "species": "punctipinnis", 
+                    "swf": "data/fish/Chromis_punctipinnis.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.28, 
+            "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences",
+            "density": 1.0, 
+            "display_name": "Carnivore", 
+            "organisms": [
+                {
+                    "a": 0.028899999999999999, 
+                    "b": 3.0, 
+                    "family": "Labridae", 
+                    "genus": "Semicossyphus", 
+                    "info_url": "http://www.fishbase.org/summary/SpeciesSummary.php?id=3671", 
+                    "mass": 2.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.69999999999999996, 
+                    "relative_size": 2.0, 
+                    "species": "pulcher", 
+                    "swf": "data/fish/Semicossyphus_pulcher.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 0.91000000000000003, 
+            "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences", 
+            "density": 1.0, 
+            "display_name": "Herbivore", 
+            "organisms": [
+                {
+                    "a": 0.019900000000000001, 
+                    "b": 3.0063, 
+                    "family": "Kyphosidae", 
+                    "genus": "Girella", 
+                    "info_url": "http://www.fishbase.org/summary/SpeciesSummary.php?id=3594", 
+                    "mass": 1.2, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.2, 
+                    "relative_size": 1.2, 
+                    "species": "nigricans", 
+                    "swf": "data/fish/Branching_algae.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Channel Islands Marine Protected Areas", 
+    "org_scale": 1.0, 
+    "point": "34.0685871748,-119.767456055", 
+    "summary": "",
+    "byline": "Even after only five years of protection, the reserves of the Channel Islands are beginning to show the effects of protection."
+}
