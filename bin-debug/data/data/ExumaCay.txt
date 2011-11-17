@@ -4,7 +4,7 @@
         "name": "Coral Reef Small", 
         "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
     }, 
-    "case_study_url": "http://www.protectedplanet.net/sites/2228", 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/exuma/caseStudy.html", 
     "data_points": [
         {
             "biomass": 3.484710018, 
@@ -20,13 +20,13 @@
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 0.29999999999999999, 
-                    "relative_size": 2.5, 
+                    "relative_size": 2.0, 
                     "species": "striatus", 
                     "swf": "data/fish/Epinephelus_striatus.swf"
                 }
             ], 
             "richness": 1.0, 
-            "size": 1.20287769784173
+            "size": 1.0
         }, 
         {
             "biomass": 0.585209003, 
@@ -48,12 +48,33 @@
             ], 
             "richness": 1.0, 
             "size": 0.893371757925072
-        }, 
+        },
+		{
+            "biomass": 21.2982456140351, 
+            "citation": "Chiappone et al (2000) Marine Ecology Progress Series", 
+            "density": 2.0, 
+            "display_name": "Black Grouper", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Mycteroperca", 
+                    "info_url": "http://www.fishbase.org/summary/speciessummary.php?id=12", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 1.5, 
+                    "species": "bonaci", 
+                    "swf": "data/fish/Mysteroperca_bonaci.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        },		
         {
             "biomass": 1.0, 
             "citation": "Mumby et al (2006) Science", 
             "density": 1.74252873563218, 
-            "display_name": "Parrotfish", 
+            "display_name": "Parrotfishes", 
             "organisms": [
                 {
                     "family": "Scaridae", 
