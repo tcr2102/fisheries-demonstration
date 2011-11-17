@@ -11,7 +11,7 @@
             "citation": "Hoskin et al. (2011) Canadian Journal of Fisheries and Aquatic Sciences", 
 			"direct_link": "http://www.ingentaconnect.com/content/nrc/cjfas/2011/00000068/00000002/art00001",
             "density": 5.54214659641169, 
-            "display_name": "legal-sized european lobster (Homarus gammarus)", 
+            "display_name": "legal-sized European lobster (Homarus gammarus)", 
             "organisms": [
                 {
                     "family": "Nephropidae", 
