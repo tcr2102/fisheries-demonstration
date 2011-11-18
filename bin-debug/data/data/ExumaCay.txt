@@ -9,7 +9,7 @@
         {
             "biomass": 3.484710018, 
             "citation": "Chiappone et al (2000) Marine Ecology Progress Series", 
-			"direct_link":"http://www.int-res.com/articles/meps/198/m198p261.pdf",
+			"direct_link":"http://scholar.googleusercontent.com/scholar?q=cache:YpINSGEr-6YJ:scholar.google.com/&hl=en&as_sdt=0,38",
             "density": 1.94444444444444, 
             "display_name": "Nassau grouper", 
             "organisms": [
@@ -40,7 +40,7 @@
                     "info_url": "http://www.fishbase.org/summary/speciessummary.php?id=12", 
                     "mass": 1.0, 
                     "org_type": "fish", 
-                    "relative_abundance": 2.0, 
+                    "relative_abundance": 4.0, 
                     "relative_size": 1.0, 
                     "species": "cruentata", 
                     "swf": "data/fish/Cephalopholis_sexmaculata.swf"

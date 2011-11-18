@@ -18,7 +18,8 @@
 		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
 		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />
 		<a href="#ExumaCay;balloonFlyto">Exuma Cay, Bahamas</a><br />
-		<a href="#Nabq;balloonFlyto">Nabq Protected Area, Egypt</a><br />]]></description>
+		<a href="#Nabq;balloonFlyto">Nabq Protected Area, Egypt</a><br />
+		<a href="#StLucia;balloonFlyto">Soufriere Marine Management Area, St. Lucia</a><br />]]></description>
 	<styleUrl>#SMRTourStart</styleUrl>
 	<StyleMap id="SMRTourStyle20">
 		<Pair>
@@ -142,7 +143,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Apo.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Nabq</value>
+				<value>StLucia</value>
 			</Data>
 			<Data name="next">
 				<value>Sumilon</value>
@@ -397,7 +398,7 @@
 	</Placemark>
 	<Placemark id="ExumaCay">
 		<name>Exuma Cay, Bahamas</name>
-		<description>The Exuma Cays Land and Sea Park was established in 1985 by the Bahamas National Trust as the first marine fishery reserve in the Caribbean.  It was made a "protected replenishment zone", and all fishing was prohibited within the boundaries of the Park.  As a result, more fish reach maturity, and there is substantial evidence that areas around the park have increasing fish populations as a result of the increased spawning activity.  Studies have even shown that the protection of herbivorous fish has led to a decline in algae cover, a necessary step in the recovery of damaged coral reefs.</description>
+		<description>The Exuma Cays Land and Sea Park was established in 1985 by the Bahamas National Trust as the first marine fishery reserve in the Caribbean. After decades of widespread overfishing, the populations of top predators like large grouper species were extremely low and the populations of some mid-level predators like graysbys had increased in their absence.  Under the protection of the Exuma Cays reserve, however, these top predators rebounded in dramatic fashion, eventually driving graysby numbers down.  Studies have even shown that the protection of herbivorous fish has led to a decline in algae cover, a necessary step in the recovery of damaged coral reefs.  Additional data from:<a href="http://www.sciencemag.org/content/311/5757/98.short"> Mumby et al (2006) Science</a>.</description>
 		<LookAt>
 			<longitude>-76.833</longitude>
 			<latitude>24.5</latitude>
@@ -424,7 +425,7 @@
 	</Placemark>
 	<Placemark id="Nabq">
 		<name>Nabq Protected Area, Egypt</name>
-		<description>This network of "No Take Zones" in the South Sinai area of Egypt protects a number of small but important coral reef areas in the Red Sea.  Supporting a local Bedouin fishery, studies have demonstrated that not only do the reserves allow key commercially valuable species like snapper, grouper, and emperors to rebound, these reserves also have an additional "spillover effect".  This means that the increase in fishes inside the reserve also helps to repopulate the areas outside the reserve where fishing is allowed.   </description>
+		<description>This network of "No Take Zones" in the South Sinai area of Egypt protects a number of small but important coral reef areas in the Red Sea.  Supporting a local Bedouin fishery, studies have demonstrated that not only do the reserves allow key commercially valuable species like snapper, grouper, and emperors to rebound, these reserves also have an additional "spillover effect".  This means that the increase in fishes inside the reserve also helps to repopulate the areas outside the reserve where fishing is allowed.</description>
 		<LookAt>
 			<longitude>34.45</longitude>
 			<latitude>28.1241666666667</latitude>
@@ -442,11 +443,38 @@
 				<value>ExumaCay</value>
 			</Data>
 			<Data name="next">
-				<value>Apo</value>
+				<value>StLucia</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>34.45,28.1241666666667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="StLucia">
+		<name>Soufriere Marine Management Area, St. Lucia</name>
+		<description>The Soufriere Marine Management Area was established in 1995 to protect St. Lucia's considerable marine resources and reduce conflict between the different user groups.  In the years since its inception, many parrotfish species including the stoplight and princess parrotfishes pictured above have increased both in number and in size.  Repeated monitoring by a team of multinational scientists has demonstrated similar population increases in surgeonfish, snapper, and grunts as well.  The success of St. Lucia's first marine reserve system resulted in the additional creation of the Canaries/Anse la Marine Management Area a few years later.</description>
+		<LookAt>
+			<longitude>-61.1</longitude>
+			<latitude>13.8</latitude>
+			<altitude>0</altitude>
+			<range>40000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>-14.06967305965687</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/StLucia.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>Nabq</value>
+			</Data>
+			<Data name="next">
+				<value>Apo</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-61.1,13.8</coordinates>
 		</Point>
 	</Placemark>
 </Document>
