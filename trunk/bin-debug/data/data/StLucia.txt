@@ -1,0 +1,78 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Tortugas.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 1.29667500306774,
+            "citation": "Hawkins and Roberts (2004) Biological Conservation",
+			"direct_link":"http://www.sciencedirect.com/science/article/pii/S0006320705003708",
+            "density": 1.0,
+            "display_name": "stoplight parrotfish and other parrotfish species", 
+            "organisms": [
+                {
+                    "family": "Scaridae", 
+                    "genus": "Sparisoma", 
+                    "info_url": "http://www.fishbase.org/summary/Sparisoma-viride.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.4, 
+                    "relative_size": 1.5, 
+                    "species": "viride", 
+                    "swf": "data/fish/Sparisoma_viride.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.5
+        }, 
+        {
+            "biomass": 1.99082922, 
+            "density": 1.05, 
+            "display_name": "ocean surgeons and other surgeonfish species", 
+            "organisms": [
+                {
+                    "family": "Acanthuridae", 
+                    "genus": "Acanthurus", 
+                    "info_url": "http://www.fishbase.org/summary/Acanthurus-bahianus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 1.0, 
+                    "species": "miniata", 
+                    "swf": "data/fish/Acanthurus_bahianus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.5
+        },
+		{
+            "biomass": 1.0, 
+            "density": 1.0, 
+            "display_name": "princess parrotfish", 
+            "organisms": [
+                {
+                    "family": "Scaridae", 
+                    "genus": "Scarus", 
+                    "info_url": "http://www.fishbase.org/summary/Scarus-taeniopterus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 3.5, 
+                    "relative_size": 1.0, 
+                    "species": "taeniopterus", 
+                    "swf": "data/fish/Scarus_scaber.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.15
+        } 
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Soufriere Marine Management Area", 
+    "org_scale": 0.80000000000000004, 
+    "point": "-61.1,13.8", 
+    "summary": "",
+    "byline": "This reserve was created in 1995 to reduce conflicts between different user groups and protect the rich marine resources surrounding St. Lucia."
+}

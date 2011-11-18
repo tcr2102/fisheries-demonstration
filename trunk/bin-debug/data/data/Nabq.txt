@@ -9,7 +9,7 @@
         {
             "biomass": 1.0,
             "citation": "Galal et al (2002) Marine Freshwater Research",
-			"direct_link":"http://www.publish.csiro.au/?act=view_file&file_id=MF01158.pdf",
+			"direct_link":"http://www.publish.csiro.au/?paper=MF01158",
             "density": 1.461538462,
             "display_name": "fished species including snapper", 
             "organisms": [
