@@ -18,7 +18,10 @@
 		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
 		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />
 		<a href="#ExumaCay;balloonFlyto">Exuma Cay, Bahamas</a><br />
-		<a href="#Nabq;balloonFlyto">Nabq Protected Area, Egypt</a><br />]]></description>
+		<a href="#Nabq;balloonFlyto">Nabq Protected Area, Egypt</a><br />
+		<a href="#CapeRodney;balloonFlyto">Cape Rodney-Okakari Point Marine Reserve, New Zealand</a><br />
+		<a href="#StLucia;balloonFlyto">Soufriere Marine Management Area, St. Lucia</a><br />
+		<a href="#Malindi;balloonFlyto">Malindi Marine National Park, Kenya</<br />]]></description>
 	<styleUrl>#SMRTourStart</styleUrl>
 	<StyleMap id="SMRTourStyle20">
 		<Pair>
@@ -142,7 +145,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Apo.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Nabq</value>
+				<value>StLucia</value>
 			</Data>
 			<Data name="next">
 				<value>Sumilon</value>
@@ -397,7 +400,7 @@
 	</Placemark>
 	<Placemark id="ExumaCay">
 		<name>Exuma Cay, Bahamas</name>
-		<description>The Exuma Cays Land and Sea Park was established in 1985 by the Bahamas National Trust as the first marine fishery reserve in the Caribbean.  It was made a "protected replenishment zone", and all fishing was prohibited within the boundaries of the Park.  As a result, more fish reach maturity, and there is substantial evidence that areas around the park have increasing fish populations as a result of the increased spawning activity.  Studies have even shown that the protection of herbivorous fish has led to a decline in algae cover, a necessary step in the recovery of damaged coral reefs.</description>
+		<description>The Exuma Cays Land and Sea Park was declared a marine reserve in 1985, making it one of the first marine reserves in the Caribbean.  After decades of widespread overfishing in the region, populations of top predators like large groupers were extremely low. In their absence, numbers of their prey, such as mid-level predators like graysbys increased.  However, large groupers rebounded in dramatic fashion when they were protected from fishing inside this reserve, eventually reducing the numbers of graysbys.  Similarly, studies have shown that the reserve also benefits herbivorous fishes, which increased in number, ate more algae, and cleared space for coral to settle and begin rebuilding these coral reefs.  Additional data from:<a href="http://www.sciencemag.org/content/311/5757/98.short"> Mumby et al (2006) Science</a>.</description>
 		<LookAt>
 			<longitude>-76.833</longitude>
 			<latitude>24.5</latitude>
@@ -423,8 +426,8 @@
 		</Point>
 	</Placemark>
 	<Placemark id="Nabq">
-		<name>Nabq Protected Area, Egypt</name>
-		<description>This network of "No Take Zones" in the South Sinai area of Egypt protects a number of small but important coral reef areas in the Red Sea.  Supporting a local Bedouin fishery, studies have demonstrated that not only do the reserves allow key commercially valuable species like snapper, grouper, and emperors to rebound, these reserves also have an additional "spillover effect".  This means that the increase in fishes inside the reserve also helps to repopulate the areas outside the reserve where fishing is allowed.   </description>
+		<name>South El Ghargana, Egypt</name>
+		<description>South El Ghargana is a no-take zone in the Nabq Protected Area, a multi-use MPA in the South Sinai area of Egypt. The Nabq Protected Area includes a network of no-take reserves that are protected from extraction as well as areas where the local Bedouin community can fish using traditional methods.  Studies have demonstrated that commercially valuable species such as snapper, grouper, and emperors have rebounded inside the marine reserves.  This increase has in turn led to documented spillover as adult fishes leave the no-take area to supplement the fisheries outside the reserves.</description>
 		<LookAt>
 			<longitude>34.45</longitude>
 			<latitude>28.1241666666667</latitude>
@@ -442,11 +445,92 @@
 				<value>ExumaCay</value>
 			</Data>
 			<Data name="next">
-				<value>Apo</value>
+				<value>CapeRodney</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>34.45,28.1241666666667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="CapeRodney">
+		<name>Cape Rodney-Okakari Point Marine Reserve, New Zealand</name>
+		<description>Created in 1975 and covering 547 hectares of waters from Cape Rodney to Okakari Point, New Zealand’s oldest marine reserve highlights the benefits of ocean protection.  Due to fishing pressure on the larger predators in the ecosystem prior to 1975, numbers of commercially valuable New Zealand snapper and southern rock lobster were extremely low.  With protection, however, studies have documented that not only have their numbers grown steadily, but also that heavy fishing had the indirect effect of allowing their prey to proliferate to artificially high numbers.  Inside the reserve, as snapper and lobster populations have recovered, their respective prey species have returned to more a balanced level as well.</description>
+		<LookAt>
+			<longitude>174.8</longitude>
+			<latitude>-36.2667</latitude>
+			<altitude>0</altitude>
+			<range>40000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>-14.06967305965687</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/CapeRodney.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>Nabq</value>
+			</Data>
+			<Data name="next">
+				<value>StLucia</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>174.8,-36.2667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="StLucia">
+		<name>Soufriere Marine Management Area, St. Lucia</name>
+		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometres of St. Lucia's considerable marine resources.  Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. By sharing the data with the local community and St. Lucia’s policy makers, the success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area.</description>
+		<LookAt>
+			<longitude>-61.075</longitude>
+			<latitude>13.85</latitude>
+			<altitude>0</altitude>
+			<range>40000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>-14.06967305965687</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/StLucia.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>CapeRodney</value>
+			</Data>
+			<Data name="next">
+				<value>Malindi</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-61.075,13.85</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="Malindi">
+		<name>Malindi Marine Park, Kenya</name>
+		<description>Founded in 1968, extractive practices are forbidden in the waters inside Malindi Park, and the areas outside the park are open to a managed, traditional fishery.  This protection has been vital to the recovery of many fish populations.  A study of 17 local fish species demonstrated that despite species-specific responses to the reserve’s creation, average density of fishes increased by over four times and average size increased by 18% when compared to the areas outside the park.  While more study is needed, there is substantial evidence of spillover in many species, especially from areas of fringing reefs.  Given the protection afforded to many of Kenya’s most commercially valuable species, the Malindi Marine National Park may prove to be a key part of protecting Kenya’s fish stocks.</description>
+		<LookAt>
+			<longitude>40.14</longitude>
+			<latitude>-3.26</latitude>
+			<altitude>0</altitude>
+			<range>40000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>-14.06967305965687</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Malindi.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>StLucia</value>
+			</Data>
+			<Data name="next">
+				<value>Apo</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>40.14,-3.26</coordinates>
 		</Point>
 	</Placemark>
 </Document>

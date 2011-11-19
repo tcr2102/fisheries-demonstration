@@ -20,7 +20,7 @@
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 2.0, 
-                    "relative_size": 1.5, 
+                    "relative_size": 2.0, 
                     "species": "bohar", 
                     "swf": "data/fish/Lutjanus_bohar.swf"
                 }
@@ -40,7 +40,7 @@
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 1.0, 
-                    "relative_size": 1.5, 
+                    "relative_size": 1.8, 
                     "species": "miniata", 
                     "swf": "data/fish/Cephalopholis_sexmaculata.swf"
                 }
@@ -60,34 +60,14 @@
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 1.5, 
-                    "relative_size": 1.0, 
+                    "relative_size": 1.5, 
                     "species": "mahsena", 
                     "swf": "data/fish/Lethrinus_erythracanthus.swf"
                 }
             ], 
             "richness": 1.0, 
             "size": 1.0
-        },		
-        {
-            "biomass": 1.0,  
-            "density": 1.461538462, 
-            "display_name": "fished species", 
-            "organisms": [
-                {
-                    "family": "Chaetodontidae", 
-                    "genus": "Chaetodon", 
-                    "info_url": "http://fishbase.org/summary/Chaetodon-melannotus.html", 
-                    "mass": 1.0, 
-                    "org_type": "fish", 
-                    "relative_abundance": 0.5, 
-                    "relative_size": 0.5, 
-                    "species": "melannotus", 
-                    "swf": "data/fish/Chaetodon_melannotus.swf"
-                }
-            ], 
-            "richness": 1.0, 
-            "size": 1.0
-        } 
+        }		 
     ], 
     "meta_analysis_id": "", 
     "name": "Exuma Cay", 
