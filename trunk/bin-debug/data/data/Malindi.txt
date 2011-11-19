@@ -1,0 +1,98 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 1.0,
+            "citation": "Kaunda-Arara & Rose (2002) Biological Conservation",
+			"direct_link":"http://www.sciencedirect.com/science/article/pii/S0006320703002994",
+            "density": 0.18,
+            "display_name": "dory snapper", 
+            "organisms": [
+                {
+                    "family": "Lutjanidae", 
+                    "genus": "Lutjanus", 
+                    "info_url": "http://www.fishbase.org/summary/Lutjanus-fulviflamma.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 4.0, 
+                    "relative_size": 1.2, 
+                    "species": "fulviflamma", 
+                    "swf": "data/fish/Lutjanus_carponotatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 0.922
+        }, 
+        {
+            "biomass": 1.0, 
+            "density": 4.5, 
+            "display_name": "greasy grouper", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Epinephelus", 
+                    "info_url": "http://www.fishbase.org/summary/Epinephelus-tauvina.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 2.0, 
+                    "species": "tauvina", 
+                    "swf": "data/fish/Epinephelus_striatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        },
+		{
+            "biomass": 1.0, 
+            "density": 4.9036, 
+            "display_name": "sky emperor", 
+            "organisms": [
+                {
+                    "family": "Lethrinidae", 
+                    "genus": "Lethrinus", 
+                    "info_url": "http://www.fishbase.org/summary/Lethrinus-mahsena.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.5, 
+                    "relative_size": 1.5, 
+                    "species": "mahsena", 
+                    "swf": "data/fish/Lethrinus_erythracanthus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.136
+        },
+		{
+            "biomass": 1.0, 
+            "density": 0.364, 
+            "display_name": "threadfin butterflyfish", 
+            "organisms": [
+                {
+                    "family": "Chaetodontidae", 
+                    "genus": "Chaetodon", 
+                    "info_url": "http://www.fishbase.org/summary/Chaetodon-auriga.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 3.0, 
+                    "relative_size": 0.7, 
+                    "species": "auriga", 
+                    "swf": "data/fish/Chaetodon_aureofasciatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Malindi", 
+    "org_scale": 0.80000000000000004, 
+    "point": "40.14, -3.26", 
+    "summary": "",
+    "byline": "Kenya's first marine reserve has resulted in a density increase of 304% and size increase of 18% across the 18 common native species that have been studied."
+}

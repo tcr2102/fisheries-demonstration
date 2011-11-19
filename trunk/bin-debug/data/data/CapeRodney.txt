@@ -1,0 +1,63 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Lundy.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+            "citation": "Langlois et al (2006) Ecology", 
+			"direct_link": "http://www.esajournals.org/doi/abs/10.1890/04-0234",
+            "density": 3.8, 
+            "display_name": "southern rock lobster", 
+            "organisms": [
+                {
+                    "family": "Paniluridae", 
+                    "genus": "Janus", 
+                    "info_url": "http://en.wikipedia.org/wiki/Homarus_gammarus", 
+                    "mass": 1.0,  
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":140,
+					"horizon_angle":0,
+                    "relative_abundance": 0.2, 
+                    "relative_size": 1.0, 
+                    "species": "edwardsii", 
+                    "swf": "data/fish/Homarus_gammarus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.05	
+		},
+		{
+            "biomass": 1.0, 
+            "density": 12, 
+            "display_name": "New Zealand snapper", 
+            "organisms": [
+                
+				{
+                    "family": "Sparidae", 
+                    "genus": "Pagrus", 
+                    "info_url": "http://fishbase.org/photos/thumbnailssummary.php?ID=439", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.25, 
+                    "relative_size": 2.0, 
+                    "species": "auratus", 
+                    "swf": "data/fish/Dentex_dentex.swf"
+                }
+				
+			], 
+            "richness": 1.0, 
+            "size": 1	
+		} 
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Lundy Island, UK", 
+    "org_scale": 1.0, 
+    "point": "24.5870903392,-82.7709960938", 
+    "summary": "",
+    "byline": "Commercially important fishes increased inside this marine reserve, where they were protected from fishing."
+}
