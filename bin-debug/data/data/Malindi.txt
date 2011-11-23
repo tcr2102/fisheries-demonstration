@@ -20,7 +20,7 @@
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 4.0, 
-                    "relative_size": 1.2, 
+                    "relative_size": 1.0, 
                     "species": "fulviflamma", 
                     "swf": "data/fish/Lutjanus_carponotatus.swf"
                 }
