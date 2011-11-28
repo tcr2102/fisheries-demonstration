@@ -1,0 +1,102 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Temperate Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Channel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/CaseStudiesHome.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+			"citation": "Parnell et al (2005) Marine Ecology Progress Series", 
+			"direct_link": "http://escholarship.org/uc/item/12g2m51v;jsessionid=54339C65D70CAA3B324DE895FDCAF2F3#page-1", 
+            "density": 39.0, 
+            "display_name": "red sea urchin", 
+            "organisms": [
+                {
+                    "family": "Echinidae", 
+                    "genus": "Strongylocentrotus franciscanus", 
+                    "info_url": "http://marinebio.org/species.asp?id=45", 
+                    "mass": 2.0, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":300,
+					"horizon_angle":-0.5, 
+                    "relative_abundance": 0.1, 
+                    "relative_size": 0.30, 
+                    "species": "fransicanus", 
+                    "swf": "data/fish/Paracentrotus_lividus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.152	
+		},
+		{
+            "biomass": 1, 
+            "density": 0.949, 
+            "display_name": "kelp bass", 
+            "organisms": [
+                { 
+                    "family": "Serranidae", 
+                    "genus": "Paralabrax", 
+                    "info_url": "http://www.fishbase.org/Summary/SpeciesSummary.php?ID=3335", 
+                    "mass": 1.0, 
+                    "org_type": "fish",
+                    "relative_abundance": 0.7, 
+                    "relative_size": 1.3, 
+                    "species": "clathratus", 
+                    "swf": "data/fish/Paralabrax_clathratus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0,  
+            "density": 6.96, 
+            "display_name": "vermilion rockfish", 
+            "organisms": [
+                {
+                    "family": "Sebastidae", 
+                    "genus": "Sebastes", 
+                    "info_url": "http://www.fishbase.org/Summary/SpeciesSummary.php?id=3646", 
+                    "mass": 0.5, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.5, 
+                    "relative_size": 0.9, 
+                    "species": "minatus", 
+                    "swf": "data/fish/Plectropomus_leopardus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0,
+            "density": 1.862, 
+            "display_name": "California sheephead", 
+            "organisms": [
+                {
+                    "family": "Labridae", 
+                    "genus": "Semicossyphus", 
+                    "info_url": "http://www.fishbase.org/summary/SpeciesSummary.php?id=3671", 
+                    "mass": 2.0, 
+                    "org_type": "fish", 
+					"org_placement": "above",
+                    "relative_abundance": 0.69999999999999996, 
+                    "relative_size": 2.0, 
+                    "species": "pulcher", 
+                    "swf": "data/fish/Semicossyphus_pulcher.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "San Diego - La Jolla Ecological Reserve", 
+    "org_scale": 1.0, 
+    "point": "32.8517, -117.272", 
+    "summary": "",
+    "byline": "San Diego's famed La Jolla Ecological Reserve has shown to benefit many species, especially those that were fished most heavily prior to instating the reserve."
+}

@@ -1,0 +1,58 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/exuma/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+            "citation": "Floeter et al (2006) Biological Conservation", 
+			"direct_link":"http://www.sciencedirect.com/science/article/pii/S0006320705004167",
+            "density": 1.1, 
+            "display_name": "dusky grouper (garoupa)", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Epinephelus", 
+                    "info_url": "http://www.fishbase.org/summary/Epinephelus-striatus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 2.0, 
+                    "species": "striatus", 
+                    "swf": "data/fish/Epinephelus_marginatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.224
+        },
+		{
+            "biomass": 1.0, 
+            "density": 1.1, 
+            "display_name": "black grouper", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Mycteroperca", 
+                    "info_url": "http://www.fishbase.org/summary/speciessummary.php?id=12", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 1.5, 
+                    "species": "bonaci", 
+                    "swf": "data/fish/Mysteroperca_bonaci.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.224
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Arquipélago, Abrolhos Reefs, Brazil", 
+    "org_scale": 0.80000000000000004, 
+    "point": "-38.7,-18.03", 
+    "summary": "",
+    "byline": "A mixture of no-take zones and other fishing restrictions has allowed grouper populations to increase."
+}
