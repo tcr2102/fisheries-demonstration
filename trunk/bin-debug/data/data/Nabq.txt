@@ -36,13 +36,13 @@
                 {
                     "family": "Serranidae", 
                     "genus": "Cephalopholis", 
-                    "info_url": "http://www.fishbase.org/summary/Lutjanus-bohar.html", 
+                    "info_url": "http://www.fishbase.org/summary/Cephalopholis-miniata.html", 
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 1.0, 
                     "relative_size": 1.8, 
                     "species": "miniata", 
-                    "swf": "data/fish/Cephalopholis_sexmaculata.swf"
+                    "swf": "data/fish/Plectropomus_leopardus.swf"
                 }
             ], 
             "richness": 1.0, 

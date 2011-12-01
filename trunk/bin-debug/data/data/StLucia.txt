@@ -8,7 +8,7 @@
     "data_points": [
         {
             "biomass": 1.29667500306774,
-            "citation": "Hawkins and Roberts (2004) Biological Conservation",
+            "citation": "Hawkins and Roberts (2006) Biological Conservation",
 			"direct_link":"http://www.sciencedirect.com/science/article/pii/S0006320705003708",
             "density": 1.0,
             "display_name": "stoplight parrotfish and other parrotfish species", 
@@ -41,7 +41,7 @@
                     "org_type": "fish", 
                     "relative_abundance": 2.0, 
                     "relative_size": 1.0, 
-                    "species": "miniata", 
+                    "species": "bahianus", 
                     "swf": "data/fish/Acanthurus_bahianus.swf"
                 }
             ], 

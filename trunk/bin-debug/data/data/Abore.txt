@@ -1,0 +1,109 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+            "citation": "Ferraris et al (2005) Marine Ecology Progress Series",
+			"direct_link":"http://www.int-res.com/abstracts/meps/v292/p271-286/", 
+            "density": 1.5, 
+            "display_name": "piscivore (fish eaters)", 
+            "organisms": [ 
+				{
+                    "family": "Serranidae", 
+                    "genus": "Plectropomus", 
+                    "info_url": "http://www.fishbase.org/summary/Plectropomus-leopardus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.25, 
+                    "relative_size": 2.5, 
+                    "species": "leopardus", 
+                    "swf": "data/fish/Plectropomus_leopardus.swf"
+                },
+				{
+                    "family": "Lutjanidae", 
+                    "genus": "Lutjanus", 
+                    "info_url": "http://www.fishbase.org/summary/Lutjanus-bohar.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.5, 
+                    "relative_size": 1.5, 
+                    "species": "bohar", 
+                    "swf": "data/fish/Lutjanus_bohar.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0, 
+            "density": 2.667, 
+            "display_name": "herbivore (algae eaters)", 
+            "organisms": [
+                {
+                    "family": "Siganidae", 
+                    "genus": "Siganus", 
+                    "info_url": "http://www.fishbase.org/summary/Siganus-doliatus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.5, 
+                    "relative_size": 1.2, 
+                    "species": "doliatus", 
+                    "swf": "data/fish/Siganus_doliatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+        {
+            "biomass": 1.0,  
+            "density": 1.308, 
+            "display_name": "corallivore (coral eaters)", 
+            "organisms": [
+                { 
+                    "family": "Chaetodontidae", 
+                    "genus": "Chaetodon", 
+                    "info_url": "http://fishbase.org/Photos/ThumbnailsSummary.php?ID=1403", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.5, 
+                    "relative_size": 0.8, 
+                    "species": "melannotus", 
+                    "swf": "data/fish/Chaetodon_melannotus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+		{
+            "biomass": 1.0,
+            "density": 2.083,
+            "display_name": "macrocarnivores (fish and invertebrate)", 
+            "organisms": [
+                {
+                    "family": "Lethrinidae", 
+                    "genus": "Lethrinus", 
+                    "info_url": "http://www.fishbase.org/summary/Lethrinus_nebulosus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.5, 
+                    "species": "nebulosus", 
+                    "swf": "data/fish/Lethrinus_erythracanthus.swf"
+                }				
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Abore Reef", 
+    "org_scale": 0.80000000000000004, 
+    "point": "166.42,-22.47", 
+    "summary": "",
+    "byline": "After opening a portion of an established marine reserve to fishing for two years, fish numbers remained higher inside the reserve than outside."
+}

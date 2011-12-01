@@ -29,9 +29,9 @@
             "size": 1.0
         }, 
         {
-            "biomass": 0.585209003, 
+            "biomass": 0.5852, 
             "citation": "Chiappone et al (2000) Marine Ecology Progress Series", 
-            "density": 0.710526315789474, 
+            "density": 0.7105, 
             "display_name": "graysby", 
             "organisms": [
                 {
@@ -50,7 +50,7 @@
             "size": 0.893371757925072
         },
 		{
-            "biomass": 21.2982456140351, 
+            "biomass": 21.298, 
             "citation": "Chiappone et al (2000) Marine Ecology Progress Series", 
             "density": 2.0, 
             "display_name": "black grouper", 
