@@ -1,0 +1,78 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 21.521, 
+            "citation": "Tuya et al (2006) Ciencias Marinas",
+			"direct_link":"http://redalyc.uaemex.mx/src/inicio/ArtPdfRed.jsp?iCve=48032303", 
+            "density": 18.304, 
+            "display_name": "white sea bream", 
+            "organisms": [ 
+				{
+                    "family": "Sparidae", 
+                    "genus": "Diplodus", 
+                    "info_url": "http://www.fishbase.org/summary/Plectropomus-leopardus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.1, 
+                    "relative_size": 1.5, 
+                    "species": "sargus cadenati", 
+                    "swf": "data/fish/Diplodus_sargus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+		},
+        {
+            "biomass": 1.0, 
+            "density": 2.667, 
+            "display_name": "herbivore (algae eaters)", 
+            "organisms": [
+                {
+                    "family": "Siganidae", 
+                    "genus": "Siganus", 
+                    "info_url": "http://www.fishbase.org/summary/Siganus-doliatus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.5, 
+                    "relative_size": 1.2, 
+                    "species": "doliatus", 
+                    "swf": "data/fish/Scarus_dimidiatus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        },  
+		{
+            "biomass": 1.0,
+            "density": 1.0,
+            "display_name": "island grouper", 
+            "organisms": [
+                {
+                    "family": "Serranidae", 
+                    "genus": "Mycteroperca", 
+                    "info_url": "http://www.fishbase.org/summary/Lethrinus_nebulosus.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.5, 
+                    "species": "fusca", 
+                    "swf": "data/fish/Epinephelus_marginatus.swf"
+                }				
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Punta La Restinga-Mar de Las Calmas Marine Reserve, El Hierro Island, Canary Islands", 
+    "org_scale": 0.80000000000000004, 
+    "point": "-18.04, 27.66", 
+    "summary": "",
+    "byline": ""
+}

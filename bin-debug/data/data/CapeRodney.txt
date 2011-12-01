@@ -55,7 +55,7 @@
 		} 
     ], 
     "meta_analysis_id": "", 
-    "name": "Lundy Island, UK", 
+    "name": "Cape Rodney, New Zealand", 
     "org_scale": 1.0, 
     "point": "24.5870903392,-82.7709960938", 
     "summary": "",

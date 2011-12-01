@@ -8,8 +8,8 @@
     "data_points": [
         {
             "biomass": 1.0, 
-			"citation": "Parnell et al (2005) Marine Ecology Progress Series", 
-			"direct_link": "http://escholarship.org/uc/item/12g2m51v;jsessionid=54339C65D70CAA3B324DE895FDCAF2F3#page-1", 
+			"citation":"Parnell et al (2005) Marine Ecology Progress Series", 
+			"direct_link":"http://escholarship.org/uc/item/12g2m51v;jsessionid=54339C65D70CAA3B324DE895FDCAF2F3#page-1", 
             "density": 39.0, 
             "display_name": "red sea urchin", 
             "organisms": [
@@ -17,13 +17,13 @@
                     "family": "Echinidae", 
                     "genus": "Strongylocentrotus franciscanus", 
                     "info_url": "http://marinebio.org/species.asp?id=45", 
-                    "mass": 2.0, 
+                    "mass": 4.0, 
                     "org_type": "invertebrate",
 					"org_placement":"below",
 					"placement_horizon":300,
 					"horizon_angle":-0.5, 
                     "relative_abundance": 0.1, 
-                    "relative_size": 0.30, 
+                    "relative_size": 0.40, 
                     "species": "fransicanus", 
                     "swf": "data/fish/Paracentrotus_lividus.swf"
                 }
@@ -54,7 +54,7 @@
         {
             "biomass": 1.0,  
             "density": 6.96, 
-            "display_name": "vermilion rockfish", 
+            "display_name": "vermillion rockfish", 
             "organisms": [
                 {
                     "family": "Sebastidae", 
