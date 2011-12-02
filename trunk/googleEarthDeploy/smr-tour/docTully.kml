@@ -403,8 +403,8 @@
 		</Point>
 	</Placemark>
 	<Placemark id="Ningaloo">
-		<name>Ningaloo Marine Park, Australia</name>
-		<description>Ningaloo Marine Park encompasses the entire 300 kilometer long Ningaloo Reef and bans all commercial fishing.  In over 65% of the park, however, recreational fishing is allowed and some of the most targeted fishes are those in the emperor family (Lethrinidae).  In one study, the results showed that even with the ban on commercial fishing throughout the study area, the no-take “Sanctuary Zones” had both higher populations and larger-sized emperors than the areas within the park that allowed recreational fishing.  These results are intriguing because they illustrate that even moderate levels of recreational fishing can be enough to drive down certain fish populations.</description>
+		<name>Mandu Sanctuary Zone, Ningaloo Marine Park, Australia</name>
+		<description>Ningaloo Marine Park encompasses the entire 300 kilometer long Ningaloo Reef and bans all commercial fishing.  In over 65% of the park, however, recreational fishing is allowed and some of the most targeted fishes are those in the emperor family (Lethrinidae).  In one study, the results showed that even with the ban on commercial fishing throughout the study area, the no-take Mandu Sanctuary Zone had a higher population and larger-sized emperors than a nearby comparison site in which recreational fishing was allowed.  These results are intriguing because they illustrate that even moderate levels of recreational fishing can be enough to drive down certain fish populations, which supports the idea that more no-take zones are needed to protect fish populations worldwide.</description>
 		<LookAt>
 			<longitude>113.87</longitude>
 			<latitude>-22.12</latitude>
@@ -593,7 +593,7 @@
 	</Placemark>
 	<Placemark id="StLucia">
 		<name>Soufriere Marine Management Area, St. Lucia</name>
-		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometres of St. Lucia's considerable marine resources.  Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. By sharing the data with the local community and St. Lucia’s policy makers, the success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area.</description>
+		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometres of St. Lucia's considerable marine resources.  Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. The success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area.</description>
 		<LookAt>
 			<longitude>-61.075</longitude>
 			<latitude>13.85</latitude>
