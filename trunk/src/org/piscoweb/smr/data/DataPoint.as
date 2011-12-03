@@ -106,7 +106,8 @@ package org.piscoweb.smr.data
 			if(this.density != 1){
 				this.measures.addItem(new RatioMeasure(this.density, 'more abundant'));
 			}
-			if(this.biomass != 1){
+			if (this.biomass != 1) {
+				//trace(this.biomass +"got this measure "+new RatioMeasure(this.biomass, 'more biomass').ratio)
 				this.measures.addItem(new RatioMeasure(this.biomass, 'more biomass'));
 			}
 			if(this.size != 1){

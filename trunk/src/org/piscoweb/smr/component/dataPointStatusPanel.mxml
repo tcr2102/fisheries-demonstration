@@ -50,31 +50,31 @@
 				}
 				else s+="<i>"+dataPoint.displayName+"</i>";
 				
-				if(dataPoint.biomass > 1.05 || dataPoint.biomass < 0.95){
+				if(dataPoint.biomass > 1.005 || dataPoint.biomass < 0.995){
 					var biomass:int = DataPoint.toPercent(dataPoint.biomass, true);
 					var verb:String = DataPoint.toVerb(dataPoint.biomass, true);
 					s = s + " biomass " +verb+ " "+biomass.toString() + "%";
-					if(dataPoint.density > 1.05 || dataPoint.density < 0.95){
+					if(dataPoint.density > 1.005 || dataPoint.density < 0.995){
 						var density:int = DataPoint.toPercent(dataPoint.density, true);
 						var verb:String = DataPoint.toVerb(dataPoint.density, true);
 						s = s + " and numbers " +verb+ " " + density.toString() + "%"
 					}
-					if(dataPoint.richness > 1.01 || dataPoint.richness < 0.99){
+					if(dataPoint.richness > 1.001 || dataPoint.richness < 0.999){
 							var density:int = DataPoint.toPercent(dataPoint.richness, true);
 							var verb:String = DataPoint.toVerb(dataPoint.richness, true);
 							s = s + " and species diversity " +verb+ " " + density.toString() + "%"
 					}
-				}else if(dataPoint.density > 1.05 || dataPoint.density < 0.95){
+				}else if(dataPoint.density > 1.005 || dataPoint.density < 0.995){
 					var density:int = DataPoint.toPercent(dataPoint.density, true);
 					var verb:String = DataPoint.toVerb(dataPoint.density, true);
 					s = s + " numbers " +verb+ " " + density.toString() + "%";
-					if(dataPoint.size > 1.05 || dataPoint.size < 0.95){
+					if(dataPoint.size > 1.005 || dataPoint.size < 0.995){
 						var density:int = DataPoint.toPercent(dataPoint.size, true);
 						var verb:String = DataPoint.toVerb(dataPoint.size, true);
 						s = s + " and size " +verb+ " " + density.toString() + "%";
 					}
 				}
-				else if(dataPoint.size > 1.05 || dataPoint.size < 0.95){
+				else if(dataPoint.size > 1.005 || dataPoint.size < 0.995){
 					var density:int = DataPoint.toPercent(dataPoint.size, true);
 					var verb:String = DataPoint.toVerb(dataPoint.size, true);
 					s = s + " size " +verb+ " " + density.toString() + "%";
