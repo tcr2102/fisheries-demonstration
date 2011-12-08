@@ -4,7 +4,7 @@
         "name": "Coral Reef Small", 
         "swf": "data/backgrounds/Small_Bkg_Lundy.swf"
     }, 
-    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/leigh/caseStudy.html", 
     "data_points": [
         {
             "biomass": 1.0, 
@@ -29,7 +29,7 @@
                 }
 			], 
             "richness": 1.0, 
-            "size": 1.05	
+            "size": 1.0	
 		},
 		{
             "biomass": 1.0, 
@@ -51,11 +51,11 @@
 				
 			], 
             "richness": 1.0, 
-            "size": 1	
+            "size": 1.0	
 		} 
     ], 
     "meta_analysis_id": "", 
-    "name": "Cape Rodney, New Zealand", 
+    "name": "Leigh Marine Reserve, New Zealand", 
     "org_scale": 1.0, 
     "point": "24.5870903392,-82.7709960938", 
     "summary": "",
