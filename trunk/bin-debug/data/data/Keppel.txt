@@ -11,7 +11,7 @@
             "citation": "Evans & Russ (2004) Aquatic Conservation", 
 			"direct_link":"http://onlinelibrary.wiley.com/doi/10.1002/aqc.631/abstract", 
             "density": 0.67741935483899995, 
-            "display_name": "Coral Trout", 
+            "display_name": "coral trout", 
             "organisms": [
                 {
                     "family": "Serranidae", 
@@ -32,7 +32,7 @@
             "biomass": 1.0, 
             "citation": "Evans & Russ (2004) Aquatic Conservation", 
             "density": 0.55866666666700004, 
-            "display_name": "Barred Spinefoot", 
+            "display_name": "barred spinefoot", 
             "organisms": [
                 {
                     "family": "Siganidae", 
@@ -53,7 +53,7 @@
             "biomass": 5.8260869565200002, 
             "citation": "Evans & Russ (2004) Aquatic Conservation", 
             "density": 2.2130013831299999, 
-            "display_name": "Spanish Flag Snapper", 
+            "display_name": "Spanish flag snapper", 
             "organisms": [
                 {
                     "family": "Lutjanidae", 
@@ -74,7 +74,7 @@
             "biomass": 1.0, 
             "citation": "Evans & Russ (2004) Aquatic Conservation", 
             "density": 0.97141988446299998, 
-            "display_name": "Golden Butterflyfish", 
+            "display_name": "golden butterflyfish", 
             "organisms": [
                 {
                     "family": "Chaetodontidae", 

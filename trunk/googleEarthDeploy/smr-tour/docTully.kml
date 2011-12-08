@@ -8,6 +8,7 @@
         </p>
         <p>Click on the links below or in your sidebar to view these Marine Reserves.</p>
         <a href="#Apo;balloonFlyto">Apo Island, Philippines</a><br />
+		<a href="#ExumaCay;balloonFlyto">Exuma Cay, Bahamas</a><br />
         <a href="#Sumilon;balloonFlyto">Sumilon, Philippines</a><br />
         <a href="#Lundy;balloonFlyto">Lundy Island, UK</a><br />
 		<a href="#CINMS;balloonFlyto">Channel Islands, California, USA</a><br />
@@ -19,11 +20,11 @@
 		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
 		<a href="#Ningaloo;balloonFlyto">Ningaloo Marine Park, Australia</a><br />
 		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />
-		<a href="#ExumaCay;balloonFlyto">Exuma Cay, Bahamas</a><br />
+		<a href="#Kisite;balloonFlyto">Kisite Marine Reserve, Kenya</a><br />
 		<a href="#LaJolla;balloonFlyto">San Diego-La Jolla Ecological Preserve, California, USA</a><br />
 		<a href="#Abrolhos;balloonFlyto">Arquipélago, Abrolhos Reefs, Brazil</a><br />
 		<a href="#Nabq;balloonFlyto">Nabq Protected Area, Egypt</a><br />
-		<a href="#CapeRodney;balloonFlyto">Cape Rodney-Okakari Point Marine Reserve, New Zealand</a><br />
+		<a href="#Leigh;balloonFlyto">Leigh Marine Reserve, New Zealand</a><br />
 		<a href="#StLucia;balloonFlyto">Soufriere Marine Management Area, St. Lucia</a><br />
 		<a href="#Malindi;balloonFlyto">Malindi Marine National Park, Kenya</<br />]]></description>
 	<styleUrl>#SMRTourStart</styleUrl>
@@ -152,11 +153,38 @@
 				<value>StLucia</value>
 			</Data>
 			<Data name="next">
-				<value>Sumilon</value>
+				<value>ExumaCay</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>123.26,9.07,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="ExumaCay">
+		<name>Exuma Cay, Bahamas</name>
+		<description>The Exuma Cays Land and Sea Park was declared a marine reserve in 1985, making it one of the first marine reserves in the Caribbean. After decades of widespread overfishing in the region, populations of top predators like large groupers were extremely low. In their absence, numbers of their prey, such as mid-level predators like graysbys, increased. However, large groupers rebounded in dramatic fashion when they were protected from fishing inside this reserve, eventually reducing the numbers of graysbys. Similarly, studies have shown that the reserve also benefits herbivorous fishes, which increased in number, ate more algae, and cleared space for coral to settle and begin rebuilding these coral reefs. Additional data from:<a href="http://www.sciencemag.org/content/311/5757/98.short"> Mumby et al (2006) Science</a>.</description>
+		<LookAt>
+			<longitude>-76.74</longitude>
+			<latitude>24.44</latitude>
+			<altitude>0</altitude>
+			<range>40000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>-14.06967305965687</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/ExumaCay.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>Apo</value>
+			</Data>
+			<Data name="next">
+				<value>Sumilon</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-76.74,24.44</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="Sumilon">
@@ -176,7 +204,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Sumilon.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Apo</value>
+				<value>ExumaCay</value>
 			</Data>
 			<Data name="next">
 				<value>Lundy</value>
@@ -350,7 +378,7 @@
 	</Placemark>
 	<Placemark id="Abore">
 		<name>Abore Reef, New Caledonia</name>
-		<description>The Abore Reef Marine Reserve was created in 1990 to protect a 25 kilometer portion of the second largest double-barrier coral reef system in the world.  What made this reef such an interesting case study is that in 1993 much of the reef was opened to fishing, with only the southern portion remaining a no-take zone, until in 1995 the whole reef was again closed to fishing.  Interestingly, the results showed that the overall density of fishes on Abore Reef declined almost universally both in the protected and fished areas from 1993 to 1995, probably because of such high fishing pressure on the unprotected area of the reef.  However, in the area that remained protected for those two years, the density of fishes was higher across almost all trophic levels, with significantly higher populations of herbivores, macrocarnivores, and piscivores.  Abore Reef is an important reminder of not only how sensitive isolated areas can be to fishing pressure, but also that marine reserves are most effective when covering larger areas for longer periods of time.</description>
+		<description>The Abore Reef marine reserve was created in 1990 to protect a 25 kilometer portion of the New Caledonia Barrier Reef, one of the largest coral reef systems in the world. After three years of protection, much of the reserve was opened to fishing and only the southern portion remained a no-take zone. In 1995, all of Abore Reef was again closed to fishing.  Meanwhile, the overall density of fishes on the reef had declined almost universally across both the protected and fished areas from 1993 to 1995, most likely due to high fishing pressure on the unprotected area of the reef. However, in the area that remained protected for those two years, the density of fishes was higher across almost all levels of the food web, with significantly greater numbers of fish that eat plants (herbivores), fish that eat prey like urchins and crabs (macrocarnivores), and fish that eat primarily other fish (piscivores). Abore Reef is an important reminder that isolated areas can be very sensitive to fishing pressure, and that marine reserves are most effective when they cover larger areas for longer periods of time.</description>
 		<LookAt>
 			<longitude>166.42</longitude>
 			<latitude>-22.47</latitude>
@@ -404,7 +432,7 @@
 	</Placemark>
 	<Placemark id="Ningaloo">
 		<name>Mandu Sanctuary Zone, Ningaloo Marine Park, Australia</name>
-		<description>Ningaloo Marine Park encompasses the entire 300 kilometer long Ningaloo Reef and bans all commercial fishing.  In over 65% of the park, however, recreational fishing is allowed and some of the most targeted fishes are those in the emperor family (Lethrinidae).  In one study, the results showed that even with the ban on commercial fishing throughout the study area, the no-take Mandu Sanctuary Zone had a higher population and larger-sized emperors than a nearby comparison site in which recreational fishing was allowed.  These results are intriguing because they illustrate that even moderate levels of recreational fishing can be enough to drive down certain fish populations, which supports the idea that more no-take zones are needed to protect fish populations worldwide.</description>
+		<description>Ningaloo Marine Park encompasses the entire 300 kilometer-long Ningaloo Reef, where all commercial fishing is banned. In over 65% of the park, however, recreational fishing is allowed and targets fishes like those in the emperor family (Lethrinidae). Scientists have shown that even though commercial fishing is banned throughout the study area, the no-take Mandu Sanctuary Zone had greater numbers and larger sizes of emperors than a nearby site where recreational fishing is allowed.  These results are intriguing because they illustrate that even moderate levels of recreational fishing can be enough to deplete certain fish populations. This supports the idea that establishing more no-take zones around the world can contribute to the protection of fishes and other marine resources.</description>
 		<LookAt>
 			<longitude>113.87</longitude>
 			<latitude>-22.12</latitude>
@@ -449,43 +477,43 @@
 				<value>Ningaloo</value>
 			</Data>
 			<Data name="next">
-				<value>ExumaCay</value>
+				<value>Kisite</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>3.185278,42.450278</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="ExumaCay">
-		<name>Exuma Cay, Bahamas</name>
-		<description>The Exuma Cays Land and Sea Park was declared a marine reserve in 1985, making it one of the first marine reserves in the Caribbean.  After decades of widespread overfishing in the region, populations of top predators like large groupers were extremely low. In their absence, numbers of their prey, such as mid-level predators like graysbys increased.  However, large groupers rebounded in dramatic fashion when they were protected from fishing inside this reserve, eventually reducing the numbers of graysbys.  Similarly, studies have shown that the reserve also benefits herbivorous fishes, which increased in number, ate more algae, and cleared space for coral to settle and begin rebuilding these coral reefs.  Additional data from:<a href="http://www.sciencemag.org/content/311/5757/98.short"> Mumby et al (2006) Science</a>.</description>
+	<Placemark id="Kisite">
+		<name>Kisite Marine Reserve, Kenya</name>
+		<description></description>
 		<LookAt>
-			<longitude>-76.74</longitude>
-			<latitude>24.44</latitude>
+			<longitude>39.36</longitude>
+			<latitude>-4.71</latitude>
 			<altitude>0</altitude>
 			<range>40000</range>
 			<tilt>24.07688567711139</tilt>
-			<heading>-14.06967305965687</heading>
+			<heading>0</heading>
 		</LookAt>
 		<styleUrl>#SMRTourStyle20</styleUrl>
 		<ExtendedData>
 			<Data name="url">
-				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/ExumaCay.txt</value>
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Kisite.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Cabrera</value>
+				<value>CBMR</value>
 			</Data>
 			<Data name="next">
 				<value>LaJolla</value>
 			</Data>
 		</ExtendedData>
 		<Point>
-			<coordinates>-76.74,24.44</coordinates>
+			<coordinates>39.36,-4.71</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="LaJolla">
-		<name>San Diego-La Jolla Ecological Preserve, California, USA</name>
-		<description>This marine reserve is a good example of how a reserve may be limited in overall effectiveness by its size, but still be quite beneficial to the ecological community.  Created in 1971 as a no-take zone in the larger La Jolla Underwater Park, the Ecological Preserve covers only 2.2 square kilometers, but protects a variety of habitats.  As a result of its relatively small size, however, studies have shown that more mobile species are not necessarily benefitting as much as more sessile ones.  Rock scallops, spiny lobster, and especially red sea urchins have grown in density compared to outside the reserve, whereas fish like kelp bass that may move in and out of the reserve have actually shown a small decline.  However, the reserve has an ecologically important population of green abalone and vermillion rockfish, which as permanent residents of the park may be critical to increasing the supply of larvae for future generations of those overharvested species.</description>
+		<name>San Diego-La Jolla Ecological Reserve, California, USA</name>
+		<description>This marine reserve illustrates how a reserve can be beneficial to the ecological community, even if the reserve’s small size limits its effectiveness with highly mobile species. Created in 1971 as a no-take zone in the larger La Jolla Underwater Park, the Ecological Reserve covers 2.2 square kilometers and a variety of habitats. As a result of its relatively small size, however, studies have shown that more mobile species benefit less than species that don’t move as far. Far-ranging fish like kelp bass, which can move in and out of the reserve, exhibited a small decline. However, species that are stationary or have small home ranges – like rock scallops, spiny lobsters, and red sea urchins – have grown in density compared to areas outside the reserve. In addition, the reserve protects key populations of green abalone and vermilion rockfish, which have been overfished in areas outside the reserve. The greater numbers of adults inside the reserve produce offspring that can be critical for replenishing fished areas.</description>
 		<LookAt>
 			<longitude>-117.27</longitude>
 			<latitude>32.8515</latitude>
@@ -500,7 +528,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/LaJolla.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>ExumaCay</value>
+				<value>Kisite</value>
 			</Data>
 			<Data name="next">
 				<value>Abrolhos</value>
@@ -512,7 +540,7 @@
 	</Placemark>
 	<Placemark id="Abrolhos">
 		<name>Arquipélago, Abrolhos Reefs, Brazil</name>
-		<description>Brazil’s coral reefs have such a high number of endemic species – species found nowhere else in the world – that some scientists believe that the nation's coastal ocean should be considered its own biogeographic province.  The Arquipélago marine reserve is a large no-take reserve about 25 miles off of Brazil’s coast, and since its inception in 1983, it has successfully protected some of the major commercial fish species in its waters.  A study of marine protected areas in Brazil found that not only were grouper numbers higher inside these protected areas, but also that the average size of the fishes had shifted up significantly.  Instead of a population comprised of mostly 10-30 centimeter fish, 70% of the groupers inside Arquipélago marine reserve were 30 centimeters or greater.  Since a larger fish releases more eggs than a smaller one, this means a larger larval supply of groupers every time they spawn.</description>
+		<description>Brazil’s coral reefs have many endemic species (organisms found nowhere else in the world), leading some scientists to believe that this coastal region should be considered its own biogeographic province. The Arquipélago marine reserve is an 802 square kilometer no-take reserve many miles off Brazil’s coast that has successfully protected many of the region’s major commercial fish species since 1983. Data grouped from many of Brazil’s marine protected areas showed that not only were grouper numbers greater inside these protected areas, but grouper size also increased significantly. Although most of the groupers found in fully fished areas were 10-30 centimeters in length, 70% of the groupers inside Arquipélago marine reserve were 30 centimeters or greater. Since a larger fish produces more eggs than a smaller one every time it spawns, the greater numbers and sizes of grouper inside these protected areas can provide more offspring for the next generation.</description>
 		<LookAt>
 			<longitude>-38.7</longitude>
 			<latitude>-18.03</latitude>
@@ -539,7 +567,7 @@
 	</Placemark>
 	<Placemark id="Nabq">
 		<name>South El Ghargana, Egypt</name>
-		<description>South El Ghargana is a no-take zone in the Nabq Protected Area, a multi-use MPA in the South Sinai area of Egypt. The Nabq Protected Area includes a network of no-take reserves that are protected from extraction as well as areas where the local Bedouin community can fish using traditional methods.  Studies have demonstrated that commercially valuable species such as snapper, grouper, and emperors have rebounded inside the marine reserves.  This increase has in turn led to documented spillover as adult fishes leave the no-take area to supplement the fisheries outside the reserves.</description>
+		<description>South El Ghargana is a no-take zone in the Nabq Protected Area, a multi-use MPA in the South Sinai area of Egypt. The Nabq Protected Area includes a network of no-take reserves, which are protected from extraction, as well as areas where the local Bedouin community can fish using traditional methods. Studies have demonstrated that commercially valuable species such as snapper, grouper, and emperors have rebounded inside the marine reserves throughout the protected area. This increase has in turn led to spillover as adult fishes leave the no-take area to supplement the fisheries outside the reserves, increasing the local catch per unit effort by 66%.</description>
 		<LookAt>
 			<longitude>34.445</longitude>
 			<latitude>28.115</latitude>
@@ -557,16 +585,16 @@
 				<value>Abrolhos</value>
 			</Data>
 			<Data name="next">
-				<value>CapeRodney</value>
+				<value>Leigh</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>34.445,28.115</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="CapeRodney">
-		<name>Cape Rodney-Okakari Point Marine Reserve, New Zealand</name>
-		<description>Created in 1975 and covering 547 hectares of waters from Cape Rodney to Okakari Point, New Zealand’s oldest marine reserve highlights the benefits of ocean protection.  Due to fishing pressure on the larger predators in the ecosystem prior to 1975, numbers of commercially valuable New Zealand snapper and southern rock lobster were extremely low.  With protection, however, studies have documented that not only have their numbers grown steadily, but also that heavy fishing had the indirect effect of allowing their prey to proliferate to artificially high numbers.  Inside the reserve, as snapper and lobster populations have recovered, their respective prey species have returned to more a balanced level as well.</description>
+	<Placemark id="Leigh">
+		<name>Leigh Marine Reserve, New Zealand</name>
+		<description>Created in 1975 and covering 547 hectares of waters from Cape Rodney to Okakari Point, New Zealand’s oldest marine reserve highlights the benefits of ocean protection. Prior to 1975, fishing pressure on the larger predators in the ecosystem led to extremely low numbers of commercially valuable New Zealand snapper and southern rock lobster. Furthermore, heavy fishing on these species had the indirect effect of allowing their sea urchin prey to proliferate, leading to a decrease in the cover of algae as the urchins grazed down this important habitat structure. With protection inside the marine reserve, however, data show that the numbers of snappers and lobsters have grown steadily. As snapper and lobster populations have recovered, their urchin prey have stabilized and promoted the return of algal habitats. Additional information from <a href="http://www.int-res.com/abstracts/meps/v246/p1-16/"> Shears and Babcock (2003)</a>.</description>
 		<LookAt>
 			<longitude>174.8</longitude>
 			<latitude>-36.2667</latitude>
@@ -578,7 +606,7 @@
 		<styleUrl>#SMRTourStyle20</styleUrl>
 		<ExtendedData>
 			<Data name="url">
-				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/CapeRodney.txt</value>
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Leigh.txt</value>
 			</Data>
 			<Data name="previous">
 				<value>Nabq</value>
@@ -593,7 +621,7 @@
 	</Placemark>
 	<Placemark id="StLucia">
 		<name>Soufriere Marine Management Area, St. Lucia</name>
-		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometres of St. Lucia's considerable marine resources.  Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. The success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area.</description>
+		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometers of St. Lucia's considerable marine resources. Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. The success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area.</description>
 		<LookAt>
 			<longitude>-61.075</longitude>
 			<latitude>13.85</latitude>
@@ -608,7 +636,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/StLucia.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>CapeRodney</value>
+				<value>Leigh</value>
 			</Data>
 			<Data name="next">
 				<value>Malindi</value>
@@ -620,7 +648,7 @@
 	</Placemark>
 	<Placemark id="Malindi">
 		<name>Malindi Marine Park, Kenya</name>
-		<description>Founded in 1968, extractive practices are forbidden in the waters inside Malindi Park, and the areas outside the park are open to a managed, traditional fishery.  This protection has been vital to the recovery of many fish populations.  A study of 17 local fish species demonstrated that despite species-specific responses to the reserve’s creation, average density of fishes increased by over four times and average size increased by 18% when compared to the areas outside the park.  While more study is needed, there is substantial evidence of spillover into neighboring fisheries of many commercially important species, especially from areas of fringing reefs.  Given the protection afforded to many of Kenya’s most commercially valuable species, the Malindi Marine National Park may prove to be a key part of protecting Kenya’s fish stocks.</description>
+		<description>Founded in 1968, extractive practices are forbidden inside the Malindi Park marine reserve while the areas outside the park are open to a managed, traditional fishery. This protection has allowed the recovery of many fish populations. A study of 17 local fish species demonstrated that despite species-specific responses to the reserve’s creation, the average density of fishes common to the park increased by over four times and size averaged across all species increased by 18% when compared to the areas outside the park. While more study is needed, there is substantial evidence of spillover in many species, especially those moving from fringing reefs. Given the protection afforded to many of Kenya’s most commercially valuable species, the Malindi Marine National Park may prove to be a key part of protecting Kenya’s fish stocks.</description>
 		<LookAt>
 			<longitude>40.14</longitude>
 			<latitude>-3.26</latitude>

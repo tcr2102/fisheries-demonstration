@@ -1,0 +1,78 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/kisite/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 11.6, 
+			"citation": "McClanahan et al. (2006) Aquatic Conservation",
+			"direct_link":"http://onlinelibrary.wiley.com/doi/10.1002/aqc.715/abstract",
+            "density": 1.0, 
+            "display_name": "fish species (including the fivesaddle parrotfish)", 
+            "organisms": [
+                {
+                    "family": "Scaridae", 
+                    "genus": "Scarus", 
+                    "info_url": "http://www.fishbase.org/summary/Scarus-scaber.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1.0, 
+                    "relative_size": 1.5, 
+                    "species": "scaber", 
+                    "swf": "data/fish/Scarus_scaber.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        },
+		{
+            "biomass": 11.6, 
+            "density": 1.0, 
+            "display_name": "fish species (including the two-spot red snapper)", 
+            "organisms": [
+                {
+                    "family": "Lutjanidae", 
+                    "genus": "Lutjanus", 
+                    "info_url": "http://www.fishbase.org/summary/Lutjanus-bohar.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1, 
+                    "relative_size": 1.3, 
+                    "species": "bohar", 
+                    "swf": "data/fish/Lutjanus_bohar.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        },
+		{
+            "biomass": 11.6, 
+            "density": 1.0, 
+            "display_name": "fish species (including the chevron butterflyfish)", 
+            "organisms": [
+                {
+                    "family": "Chaetodontidae", 
+                    "genus": "Chaetodon", 
+                    "info_url": "http://www.fishbase.org/summary/Chaetodon-trifascialis.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 2.0, 
+                    "relative_size": 0.5, 
+                    "species": "trifascialis", 
+                    "swf": "data/fish/Chaetodon_melannotus.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Kisite", 
+    "org_scale": 0.80000000000000004, 
+    "point": "39.36, -4.71", 
+    "summary": "",
+    "byline": "Scientists noted significantly greater biomass of fishes in the Kisite marine reserve compared to both a managed marine protect area that allowed fishing and completely unrestricted fished area."
+}
