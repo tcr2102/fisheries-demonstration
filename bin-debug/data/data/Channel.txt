@@ -11,7 +11,7 @@
             "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences", 
 			"direct_link": "http://www.pnas.org/content/107/43/18272", 
             "density": 1.0, 
-            "display_name": "Piscivore (fish eater)", 
+            "display_name": "piscivore (fish eater)", 
             "organisms": [
                 {
                     "a": 0.0027000000000000001, 
@@ -34,7 +34,7 @@
             "biomass": 1.02, 
             "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences", 
             "density": 1.0, 
-            "display_name": "Planktivore", 
+            "display_name": "planktivore", 
             "organisms": [
                 {
                     "a": 0.020199999999999999, 
@@ -57,7 +57,7 @@
             "biomass": 1.28, 
             "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences",
             "density": 1.0, 
-            "display_name": "Carnivore", 
+            "display_name": "carnivore", 
             "organisms": [
                 {
                     "a": 0.028899999999999999, 
@@ -80,7 +80,7 @@
             "biomass": 0.91000000000000003, 
             "citation": "Hamilton et al. (2010) Proceedings of the National Academy of Sciences", 
             "density": 1.0, 
-            "display_name": "Herbivore", 
+            "display_name": "herbivore", 
             "organisms": [
                 {
                     "a": 0.019900000000000001, 
