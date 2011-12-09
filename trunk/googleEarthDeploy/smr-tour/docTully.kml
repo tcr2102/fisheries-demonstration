@@ -485,8 +485,8 @@
 		</Point>
 	</Placemark>
 	<Placemark id="Kisite">
-		<name>Kisite Marine Reserve, Kenya</name>
-		<description></description>
+		<name>Kisite Marine National Park, Kenya</name>
+		<description>In 1973, Kenya established Kisite Marine National Park in an area of coral reefs along its southern coast. In the 1990s, authorities began to enforce rules that prohibited fishing, and the park became a marine reserve. A study assessed the effectiveness of the Kisite marine reserve and the Tanzanian Mtang’ata fished MPA by comparing similar types of habitat at both locations with each other and also with nearby unprotected reefs. The scientists determined that reduced use of destructive fishing gear in the fished MPA had successfully increased fish stocks and had kept ecological diversity the same. However, at the marine reserve, fish biomass was 2.8 times greater than at the fished MPA and 11.6 times greater than in fully fished areas. The marine reserve also had higher fish diversity, with approximately 10 more fish species per area sampled than the fished MPA. Overall, both protected areas had more fish and biodiversity than unprotected areas, but the marine reserve produced even greater ecological benefits than the fished MPA.</description>
 		<LookAt>
 			<longitude>39.36</longitude>
 			<latitude>-4.71</latitude>

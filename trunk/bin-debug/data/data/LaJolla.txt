@@ -33,7 +33,7 @@
 		},
 		{
             "biomass": 1, 
-            "density": 0.949, 
+            "density": 0.9604, 
             "display_name": "kelp bass", 
             "organisms": [
                 { 
