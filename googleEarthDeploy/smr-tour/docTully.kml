@@ -20,7 +20,7 @@
 		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
 		<a href="#Ningaloo;balloonFlyto">Ningaloo Marine Park, Australia</a><br />
 		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />
-		<a href="#Kisite;balloonFlyto">Kisite Marine Reserve, Kenya</a><br />
+		<a href="#Kisite;balloonFlyto">Kisite Marine National Park, Kenya</a><br />
 		<a href="#LaJolla;balloonFlyto">San Diego-La Jolla Ecological Preserve, California, USA</a><br />
 		<a href="#Abrolhos;balloonFlyto">Arquipélago, Abrolhos Reefs, Brazil</a><br />
 		<a href="#Nabq;balloonFlyto">Nabq Protected Area, Egypt</a><br />
@@ -540,7 +540,7 @@
 	</Placemark>
 	<Placemark id="Abrolhos">
 		<name>Arquipélago, Abrolhos Reefs, Brazil</name>
-		<description>Brazil’s coral reefs have many endemic species (organisms found nowhere else in the world), leading some scientists to believe that this coastal region should be considered its own biogeographic province. The Arquipélago marine reserve is an 802 square kilometer no-take reserve many miles off Brazil’s coast that has successfully protected many of the region’s major commercial fish species since 1983. Data grouped from many of Brazil’s marine protected areas showed that not only were grouper numbers greater inside these protected areas, but grouper size also increased significantly. Although most of the groupers found in fully fished areas were 10-30 centimeters in length, 70% of the groupers inside Arquipélago marine reserve were 30 centimeters or greater. Since a larger fish produces more eggs than a smaller one every time it spawns, the greater numbers and sizes of grouper inside these protected areas can provide more offspring for the next generation.</description>
+		<description>The Arquipélago marine reserve is an 802 square kilometer no-take reserve many miles off Brazil’s coast that has successfully protected many of the region’s major commercial fish species since 1983. When compared to a partially protected area, grouper numbers increased 10% inside the marine reserve. Although most of the groupers found at the partially protected site were 10-30 centimeters in length, 70% of the groupers inside Arquipélago marine reserve were 30 centimeters or greater. Partially protected areas in this region have produced benefits, yet full protection inside Arquipélago marine reserve has provided even greater numbers of larger groupers. Since a larger fish produces more eggs than a smaller one every time it spawns, the greater numbers and sizes of grouper inside this and other marine reserves can provide more offspring for the next generation.</description>
 		<LookAt>
 			<longitude>-38.7</longitude>
 			<latitude>-18.03</latitude>
@@ -621,7 +621,7 @@
 	</Placemark>
 	<Placemark id="StLucia">
 		<name>Soufriere Marine Management Area, St. Lucia</name>
-		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometers of St. Lucia's considerable marine resources. Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. The success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area.</description>
+		<description>The Soufriere marine reserves were established in 1995 and protect over 12 kilometers of St. Lucia's considerable marine resources. Since the management area was established, many parrotfish species have increased both in number and in biomass. Repeated monitoring by a team of multinational scientists has demonstrated similar increases in surgeonfish, snapper, and grunts. The success of St. Lucia's first marine reserve led to the creation of additional reserves, such as those in the Canaries/Anse la Marine Management Area. Additional information from <a href="http://www.sciencedirect.com/science/article/pii/S0006320703001198"> Hawkins and Roberts (2004)</a>.</description>
 		<LookAt>
 			<longitude>-61.075</longitude>
 			<latitude>13.85</latitude>
