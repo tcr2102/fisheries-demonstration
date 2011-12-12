@@ -73,8 +73,8 @@
         }, 
         {
             "biomass": 1.0,
-            "density": 1.862, 
-            "display_name": "California sheephead", 
+            "density": 1.718, 
+            "display_name": "male California sheephead", 
             "organisms": [
                 {
                     "family": "Labridae", 
