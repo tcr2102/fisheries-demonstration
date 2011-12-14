@@ -25,7 +25,7 @@
                     "relative_abundance": 0.2, 
                     "relative_size": 1.0, 
                     "species": "edwardsii", 
-                    "swf": "data/fish/Homarus_gammarus.swf"
+                    "swf": "data/fish/Panulirus_interruptus.swf"
                 }
 			], 
             "richness": 1.0, 
