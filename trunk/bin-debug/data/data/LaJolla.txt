@@ -25,7 +25,7 @@
                     "relative_abundance": 0.1, 
                     "relative_size": 0.40, 
                     "species": "fransicanus", 
-                    "swf": "data/fish/Paracentrotus_lividus.swf"
+                    "swf": "data/fish/Strongylocentrotus_franciscanus1.swf"
                 }
 			], 
             "richness": 1.0, 

@@ -1,0 +1,38 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Keppel.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 1, 
+            "citation": "Westera et al (2003) Journal of Experimental Marine Biology and Ecology",
+			"direct_link":"http://www.sciencedirect.com/science/article/pii/S0022098103002685", 
+            "density": 3.82, 
+            "display_name": "young Caribbean reef sharks", 
+            "organisms": [ 
+				{
+                    "family": "Lethridae", 
+                    "genus": "Lethrinus", 
+                    "info_url": "http://www.fishbase.org/identification/SpeciesList.php?famcode=328&genus=Lethrinus&areacode=57&c_code=036&spines=&fins=&sortby=species", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.1, 
+                    "relative_size": 3, 
+                    "species": "spp.", 
+                    "swf": "data/fish/Carcharhinus_perezi.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+		}
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Ningaloo Marine Park, Australia", 
+    "org_scale": 0.80000000000000004, 
+    "point": "113.87, -22.12", 
+    "summary": "",
+    "byline": ""
+}
