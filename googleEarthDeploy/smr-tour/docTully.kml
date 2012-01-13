@@ -11,6 +11,7 @@
 		<a href="#ExumaCay;balloonFlyto">Exuma Cay, Bahamas</a><br />
         <a href="#Sumilon;balloonFlyto">Sumilon, Philippines</a><br />
         <a href="#Lundy;balloonFlyto">Lundy Island, UK</a><br />
+		<a href="#Glovers;balloonFlyto">Glover's Reef, Belize</a><br />
 		<a href="#CINMS;balloonFlyto">Channel Islands, California, USA</a><br />
         <a href="#Tortugas;balloonFlyto">Dry Tortugas, Florida, USA</a><br />
 		<a href="#GBR;balloonFlyto">Great Barrier Reef Marine Park, Australia</a><br />
@@ -239,6 +240,33 @@
 		</ExtendedData>
 		<Point>
 			<coordinates>-4.701389,51.171667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="Glovers">
+		<name>Glover's Reef, Belize</name>
+		<description>The Glover’s Reef marine reserve was created in 1993 to protect valuable spiny lobster and queen conch populations on a coral atoll 45 kilometers off the coast of Belize. However, real enforcement of the reserve did not begin until 1998, which reduced poaching and allowed these populations to thrive within the reserve boundaries. Surveys conducted by scientists in 1997, before the reserve was effectively closed, compared to surveys conducted in 2001 show that the density of lobster and conch increased within the reserve by 3 and 4.5 times, respectively. Despite these successes for lobster and conch, fishes that range in and out of the 73 square kilometer reserve are not well-protected. This has led scientists to suggest that increasing the size of the reserve would benefit more fish populations.</description>
+		<LookAt>
+			<longitude>-87.83</longitude>
+			<latitude>16.76</latitude>
+			<altitude>0</altitude>
+			<range>40000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>0</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Glovers.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>Lundy</value>
+			</Data>
+			<Data name="next">
+				<value>CINMS</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-87.76,16.83</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="CINMS">

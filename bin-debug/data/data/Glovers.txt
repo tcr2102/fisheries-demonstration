@@ -1,0 +1,63 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Tortugas.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+            "citation": "Acosta (2002) ICES Journal of Marine Science", 
+            "density": 4.5, 
+            "display_name": "queen conch", 
+            "organisms": [
+                {
+                    "family": "Strombidae", 
+                    "genus": "Lobatus", 
+                    "info_url": "http://www.nmfs.noaa.gov/pr/species/invertebrates/queenconch.htm", 
+                    "mass": 200,
+					"org_type": "algae",
+					"org_placement":"below",
+					"placement_horizon":150,
+					"horizon_angle":0,
+					"relative_abundance": 0.1, 
+                    "relative_size": 1.3, 
+                    "species": "analis", 
+                    "swf": "data/fish/Strombus_gigas.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		},
+		{
+            "biomass": 1.0,  
+            "density": 3, 
+            "display_name": "Caribbean spiny lobster", 
+            "organisms": [
+                {
+                    "family": "Paniluridae", 
+                    "genus": "Panulirus", 
+                    "info_url": "http://www.iucnredlist.org/apps/redlist/details/169976/0", 
+                    "mass": 0.2, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":150,
+					"horizon_angle":0,
+                    "relative_abundance": 0.1, 
+                    "relative_size": 1.4, 
+                    "species": "argus", 
+                    "swf": "data/fish/Panulirus_argus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		}
+	],
+    "meta_analysis_id": "", 
+    "name": "Glover's Reef", 
+    "org_scale": 0.80000000000000004, 
+    "point": "16.8,-87.8", 
+    "summary": "",
+    "byline": ""
+}
