@@ -43,7 +43,7 @@
                     "relative_abundance": 4.0, 
                     "relative_size": 2.0,
                     "species": "cruentata", 
-                    "swf": "data/fish/Cephalopholis_cruentatafinsdown3.swf"
+                    "swf": "data/fish/Cephalopholis_cruentata.swf"
                 }
             ], 
             "richness": 1.0, 

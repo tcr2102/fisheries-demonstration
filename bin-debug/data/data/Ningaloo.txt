@@ -60,7 +60,7 @@
                     "mass": 1.0, 
                     "org_type": "fish", 
                     "relative_abundance": 1, 
-                    "relative_size": 1, 
+                    "relative_size": 1.3, 
                     "species": "spp.", 
                     "swf": "data/fish/Lutjanus_carponotatus.swf"
                 }

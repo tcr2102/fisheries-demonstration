@@ -25,7 +25,7 @@
                     "relative_abundance": 0.5, 
                     "relative_size": 1.5, 
                     "species": "edwardsii", 
-                    "swf": "data/fish/Panulirus_interruptusRTR6.swf"
+                    "swf": "data/fish/Panulirus_interruptus.swf"
                 }
 			], 
             "richness": 1.0, 

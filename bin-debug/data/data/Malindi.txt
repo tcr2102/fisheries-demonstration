@@ -42,7 +42,7 @@
                     "relative_abundance": 0.1, 
                     "relative_size": 2.5, 
                     "species": "tauvina", 
-                    "swf": "data/fish/Epinephelus-tauvina3.swf"
+                    "swf": "data/fish/Epinephelus_tauvina.swf"
                 }
             ], 
             "richness": 1.0, 
@@ -62,7 +62,7 @@
                     "relative_abundance": 0.1, 
                     "relative_size": 2, 
                     "species": "mahsena", 
-                    "swf": "data/fish/Lethrinus-mahsena5.swf"
+                    "swf": "data/fish/Lethrinus_mahsena.swf"
                 }
             ], 
             "richness": 1.0, 
@@ -82,7 +82,7 @@
                     "relative_abundance": 1.5, 
                     "relative_size": 0.8, 
                     "species": "auriga", 
-                    "swf": "data/fish/Chaetodon_auriga3.swf"
+                    "swf": "data/fish/Chaetodon_auriga.swf"
                 }
             ], 
             "richness": 1.0, 

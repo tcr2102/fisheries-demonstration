@@ -62,7 +62,7 @@
                     "relative_abundance": 2.0, 
                     "relative_size": 0.5, 
                     "species": "trifascialis", 
-                    "swf": "data/fish/Chaetodon_auriga3.swf"
+                    "swf": "data/fish/Chaetodon_auriga.swf"
                 }
             ], 
             "richness": 1.0, 

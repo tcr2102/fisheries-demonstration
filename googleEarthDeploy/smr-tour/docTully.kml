@@ -23,6 +23,7 @@
 		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
 		<a href="#Ningaloo;balloonFlyto">Ningaloo Marine Park, Australia</a><br />
 		<a href="#CBMR;balloonFlyto">Cerbère-Banyuls, France</a><br />
+		<a href="#Fernando;balloonFlyto">Fernando de Noronha, Brazil</a><br />
 		<a href="#Kisite;balloonFlyto">Kisite Marine National Park, Kenya</a><br />
 		<a href="#LaJolla;balloonFlyto">San Diego-La Jolla Ecological Preserve, California, USA</a><br />
 		<a href="#Abrolhos;balloonFlyto">Arquipélago, Abrolhos Reefs, Brazil</a><br />
@@ -561,11 +562,38 @@
 				<value>Ningaloo</value>
 			</Data>
 			<Data name="next">
-				<value>Kisite</value>
+				<value>Fernando</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>3.185278,42.450278</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="Fernando">
+		<name>Fernando de Noronha, Brazil</name>
+		<description>This island archipelago 345km northeast of Brazil is a very important nursery area for juvenile Caribbean reef sharks.  Fortunately for the protection efforts of these valuable members of the tropical ecosystem, Fernando de Noronha is surrounded by a marine reserve covering 70% of its coastal waters.  A tracking study showed that juvenile reef sharks spend most of their time in the reserve area, rarely venturing out of the reserve boundaries into the unprotected area where human impacts like fishing pressure and boating noise are highest.  In fact, not a single shark during the duration of the study crossed from one side of the unprotected area to the other, possibly indicating an important preference for undisturbed habitat during one of their most vulnerable life stages.  While adult sharks roam across much larger areas, Fernando de Noronha has shown that marine reserves can help protect some shark populations by providing a sanctuary for the individuals that will become the next generation of adult sharks.</description>
+		<LookAt>
+			<longitude>-32.40</longitude>
+			<latitude>-3.875</latitude>
+			<altitude>0</altitude>
+			<range>20000</range>
+			<tilt>15</tilt>
+			<heading>20</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Fernando.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>CBMR</value>
+			</Data>
+			<Data name="next">
+				<value>Kisite</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-32.40,-3.875</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="Kisite">
@@ -585,7 +613,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Kisite.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>CBMR</value>
+				<value>Fernando</value>
 			</Data>
 			<Data name="next">
 				<value>LaJolla</value>
@@ -629,7 +657,7 @@
 			<longitude>-38.7</longitude>
 			<latitude>-18.03</latitude>
 			<altitude>0</altitude>
-			<range>40000</range>
+			<range>20000</range>
 			<tilt>24.07688567711139</tilt>
 			<heading>-14.06967305965687</heading>
 		</LookAt>

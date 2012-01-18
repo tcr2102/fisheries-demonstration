@@ -62,7 +62,7 @@
                     "relative_abundance": 1.5, 
                     "relative_size": 1.8, 
                     "species": "mahsena", 
-                    "swf": "data/fish/Lethrinus-mahsena5.swf"
+                    "swf": "data/fish/Lethrinus_mahsena.swf"
                 }
             ], 
             "richness": 1.0, 
