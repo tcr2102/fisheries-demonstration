@@ -19,7 +19,7 @@
                     "info_url": "http://www.fishbase.org/summary/Lutjanus-fulviflamma.html", 
                     "mass": 1.0, 
                     "org_type": "fish", 
-                    "relative_abundance": 4.0, 
+                    "relative_abundance": 3.0, 
                     "relative_size": 1.0, 
                     "species": "fulviflamma", 
                     "swf": "data/fish/Lutjanus_carponotatus.swf"
@@ -39,10 +39,10 @@
                     "info_url": "http://www.fishbase.org/summary/Epinephelus-tauvina.html", 
                     "mass": 1.0, 
                     "org_type": "fish", 
-                    "relative_abundance": 1.0, 
-                    "relative_size": 2.0, 
+                    "relative_abundance": 0.1, 
+                    "relative_size": 2.5, 
                     "species": "tauvina", 
-                    "swf": "data/fish/Epinephelus_striatus.swf"
+                    "swf": "data/fish/Epinephelus-tauvina3.swf"
                 }
             ], 
             "richness": 1.0, 
@@ -59,10 +59,10 @@
                     "info_url": "http://www.fishbase.org/summary/Lethrinus-mahsena.html", 
                     "mass": 1.0, 
                     "org_type": "fish", 
-                    "relative_abundance": 0.5, 
-                    "relative_size": 1.5, 
+                    "relative_abundance": 0.1, 
+                    "relative_size": 2, 
                     "species": "mahsena", 
-                    "swf": "data/fish/Lethrinus_mahsena1.swf"
+                    "swf": "data/fish/Lethrinus-mahsena5.swf"
                 }
             ], 
             "richness": 1.0, 
@@ -79,10 +79,10 @@
                     "info_url": "http://www.fishbase.org/summary/Chaetodon-auriga.html", 
                     "mass": 1.0, 
                     "org_type": "fish", 
-                    "relative_abundance": 3.0, 
-                    "relative_size": 0.7, 
+                    "relative_abundance": 1.5, 
+                    "relative_size": 0.8, 
                     "species": "auriga", 
-                    "swf": "data/fish/Chaetodon_aureofasciatus.swf"
+                    "swf": "data/fish/Chaetodon_auriga3.swf"
                 }
             ], 
             "richness": 1.0, 

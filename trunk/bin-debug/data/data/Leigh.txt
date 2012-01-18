@@ -16,16 +16,16 @@
                 {
                     "family": "Paniluridae", 
                     "genus": "Janus", 
-                    "info_url": "http://en.wikipedia.org/wiki/Homarus_gammarus", 
-                    "mass": 2.0,  
+                    "info_url": "http://en.wikipedia.org/wiki/Panulirus_interruptus", 
+                    "mass": 1.0,  
                     "org_type": "invertebrate",
 					"org_placement":"below",
-					"placement_horizon":140,
+					"placement_horizon":180,
 					"horizon_angle":0,
-                    "relative_abundance": 0.2, 
-                    "relative_size": 1.0, 
+                    "relative_abundance": 0.5, 
+                    "relative_size": 1.5, 
                     "species": "edwardsii", 
-                    "swf": "data/fish/Panulirus_interruptus.swf"
+                    "swf": "data/fish/Panulirus_interruptusRTR6.swf"
                 }
 			], 
             "richness": 1.0, 
@@ -52,7 +52,30 @@
 			], 
             "richness": 1.0, 
             "size": 1.0	
-		} 
+		}, 
+		{
+            "biomass": 1.0,  
+            "density": 0.54347, 
+            "display_name": "New Zealand sea urchin", 
+            "organisms": [
+                {
+                    "family": "Echinidae", 
+                    "genus": "Evechinus", 
+                    "info_url": "", 
+                    "mass": 10.0, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":200,
+					"horizon_angle":0, 
+                    "relative_abundance": 2, 
+                    "relative_size": 0.30, 
+                    "species": "chloroticus", 
+                    "swf": "data/fish/Evechinus_chloroticus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1	
+		}
     ], 
     "meta_analysis_id": "", 
     "name": "Leigh Marine Reserve, New Zealand", 

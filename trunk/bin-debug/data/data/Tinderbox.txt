@@ -1,0 +1,85 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Lundy.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/somr/scientificConsiderations.html", 
+    "data_points": [
+        {
+            "biomass": 9, 
+            "citation": "Barrett et al (2009) JEMBE", 
+			"direct_link": "http://www.sciencedirect.com/science/article/pii/S0022098108006059",
+            "density": 2, 
+            "display_name": "southern rock lobster", 
+            "organisms": [
+                {
+                    "family": "Paniluridae", 
+                    "genus": "Jasus", 
+                    "info_url": "http://en.wikipedia.org/wiki/Jasus_edwardsii", 
+                    "mass": 1.0,  
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":180,
+					"horizon_angle":0,
+                    "relative_abundance": 1.4, 
+                    "relative_size": 1, 
+                    "species": "edwardsii", 
+                    "swf": "data/fish/Panulirus_interruptusRTR6.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		},
+		{
+            "biomass": 1.0, 
+            "density": 8.0, 
+            "display_name": "large bastard trumpeter", 
+            "organisms": [
+                
+				{
+                    "family": "Sparidae", 
+                    "genus": "Latridopsis", 
+                    "info_url": "http://www.fishbase.us/summary/Latridopsis-forsteri.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.2, 
+                    "relative_size": 2, 
+                    "species": "forsteri", 
+                    "swf": "data/fish/bastardtrumpeter2.swf"
+                }
+				
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		},
+		{
+            "biomass": -1.0, 
+            "density": 1.0, 
+            "display_name": "small bastard trumpeter", 
+            "organisms": [
+                
+				{
+                    "family": "Sparidae", 
+                    "genus": "Latridopsis", 
+                    "info_url": "http://www.fishbase.us/summary/Latridopsis-forsteri.html", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1, 
+                    "relative_size": 1.2, 
+                    "species": "forsteri", 
+                    "swf": "data/fish/bastardtrumpeter2.swf"
+                }
+				
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		}
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Tinderbox Marine Reserve, Tasmania", 
+    "org_scale": 1.0, 
+    "point": "-43.059, 147.335", 
+    "summary": "",
+    "byline": "Commercially important fishes increased inside this marine reserve, where they were protected from fishing."
+}

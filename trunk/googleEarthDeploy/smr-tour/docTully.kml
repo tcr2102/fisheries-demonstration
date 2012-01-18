@@ -13,9 +13,11 @@
         <a href="#Lundy;balloonFlyto">Lundy Island, UK</a><br />
 		<a href="#Glovers;balloonFlyto">Glover's Reef, Belize</a><br />
 		<a href="#CINMS;balloonFlyto">Channel Islands, California, USA</a><br />
+		<a href="#Anacapa;balloonFlyto">Ancapa Island, California, USA</a><br />
         <a href="#Tortugas;balloonFlyto">Dry Tortugas, Florida, USA</a><br />
 		<a href="#GBR;balloonFlyto">Great Barrier Reef Marine Park, Australia</a><br />
         <a href="#TorreGuaceto;balloonFlyto">Torre Guaceto, Italy</a><br />
+		<a href="#Tinderbox;balloonFlyto">Tinderbox Marine Reserve, Tasmania, Australia</a><br />
 		<a href="#Cabo;balloonFlyto">Cabo de Palos, Spain</a><br />
 		<a href="#Abore;balloonFlyto">Abore Reef, New Caledonia</a><br />
 		<a href="#Cabrera;balloonFlyto">Cabrera, Spain</a><br />
@@ -289,11 +291,38 @@
 				<value>Lundy</value>
 			</Data>
 			<Data name="next">
-				<value>Tortugas</value>
+				<value>Anacapa</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>-119.9783245537535,34.05707298778005,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="Anacapa">
+		<name>Anacapa Island, California, USA</name>
+		<description>Established in 1978, the Anacapa Island marine reserve demonstrates how effective reserves can be.  While kelp forests in fished areas outside the reserve suffer due to urchin predation, the Anacapa reserve has maintained a healthy kelp forest habitat for the entire twenty-year monitoring period.  The main reason for this success is the abundance of spiny lobster within the reserve, which prey upon urchins.  With lobster populations reduced outside the reserve, urchin populations grow unchecked and consume much more kelp, leaving behind “urchin barrens” – areas fully devoid of the kelp that once defined that habitat.  Within the reserve, however, lobsters are six times more abundant, leaving a population of urchins thirteen times less dense that the fished area.  As a result, kelp cover in the reserve is over five times as dense, leading to a healthier habitat.  With increased kelp cover the marine reserve also showed higher resiliency to climatic stress, with kelp remaining abundant even in warm water years when kelp forests outside the reserve died back.</description>
+		<LookAt>
+			<longitude>-119.365</longitude>
+			<latitude>34.018</latitude>
+			<altitude>0</altitude>
+			<range>5000</range>
+			<tilt>41.04221185964849</tilt>
+			<heading>0</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Anacapa.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>CINMS</value>
+			</Data>
+			<Data name="next">
+				<value>Tortugas</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-119.365, 34.018</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="Tortugas">
@@ -313,7 +342,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Tortugas.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>CINMS</value>
+				<value>Anacapa</value>
 			</Data>
 			<Data name="next">
 				<value>GBR</value>
@@ -370,11 +399,38 @@
 				<value>GBR</value>
 			</Data>
 			<Data name="next">
-				<value>Cabo</value>
+				<value>Tinderbox</value>
 			</Data>
 		</ExtendedData>
 		<Point>
 			<coordinates>17.799178,40.716814</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="Tinderbox">
+		<name>Tinderbox Marine Reserve, Tasmania, Australia</name>
+		<description>Tinderbox Marine Reserve is a small no-take area founded in 1991 near Tasmania’s capital city of Hobart.  Despite its small size, the reserve has affected many species in interesting ways, including a ten-fold increase in the number of larger fish (>300mm) inside the reserve compared to the fished areas outside.  The population of large bastard trumpeter fish benefitted the most, increasing by a factor of eight inside the reserve over the course of the study.  However, the population of smaller trumpeters remained the same, a result indicative of high fishing pressure outside the reserve that removed the larger individuals of the population.  The reserve had similar effects on the southern rock lobster, allowing lobsters in the reserve to grow much larger while increasing in density.  Additional information from <a href="http://www.sciencedirect.com/science/article/pii/S0022098107000962"> Barrett (2007) JEMBE</a>.</description>
+		<LookAt>
+			<longitude>147.335</longitude>
+			<latitude>-43.059</latitude>
+			<altitude>0</altitude>
+			<range>10000</range>
+			<tilt>24.07688567711139</tilt>
+			<heading>0</heading>
+		</LookAt>
+		<styleUrl>#SMRTourStyle20</styleUrl>
+		<ExtendedData>
+			<Data name="url">
+				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Tinderbox.txt</value>
+			</Data>
+			<Data name="previous">
+				<value>TorreGuaceto</value>
+			</Data>
+			<Data name="next">
+				<value>Cabo</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>147.335,-43.059</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="Cabo">
@@ -394,7 +450,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/CabodePalos.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>TorreGuaceto</value>
+				<value>Tinderbox</value>
 			</Data>
 			<Data name="next">
 				<value>Abore</value>

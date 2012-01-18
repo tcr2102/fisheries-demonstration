@@ -1,0 +1,117 @@
+{
+    "background": {
+        "description": "", 
+        "name": "Coral Reef Small", 
+        "swf": "data/backgrounds/Small_Bkg_Lundy.swf"
+    }, 
+    "case_study_url": "http://www.protectplanetocean.org/collections/successandlessons/casestudy/anacapa/caseStudy.html", 
+    "data_points": [
+        {
+            "biomass": 1.0, 
+			"citation": "Behrens & Lafferty (2004) Marine Ecology Progress Series", 
+			"direct_link": "http://www.int-res.com/articles/meps2004/279/m279p129.pdf",
+            "density": 0.13667, 
+            "display_name": "red urchin", 
+            "organisms": [
+                {
+                    "family": "Echinidae", 
+                    "genus": "Strongylocentrotus", 
+                    "info_url": "http://www.wallawalla.edu/academics/departments/biology/rosario/inverts/Echinodermata/Class%20Echinoidea/Echinoida/Strongylocentrotidae/Strongylocentrotus_purpuratus.html", 
+                    "mass": 0.5, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":100,
+					"horizon_angle":0,
+                    "relative_abundance": 25, 
+                    "relative_size": 0.25, 
+                    "species": "purpuratus", 
+                    "swf": "data/fish/Strongylocentrotus_purpuratus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		},
+		{
+            "biomass": 1, 
+            "citation": "Abesamis, et al (2006) Aquatic Conservation", 
+			"direct_link": "http://onlinelibrary.wiley.com/doi/10.1002/aqc.730/abstract", 
+            "density": 5.2, 
+            "display_name": "giant brown kelp", 
+            "organisms": [
+                {
+                    "family": "Laminariaceae", 
+                    "genus": "Macrocystis", 
+                    "info_url": "http://www.mbari.org/staff/conn/botany/browns/james/default.htm", 
+                    "mass": 50.0, 
+                    "org_type": "algae",
+					"org_placement":"above",
+					"placement_horizon":180,
+					"horizon_angle":0,
+                    "relative_abundance": 0.6, 
+                    "relative_size": 2.7, 
+                    "species": "pyrifera", 
+                    "swf": "data/fish/Kelp4.swf"
+                }, 
+                {
+                    "family": "Laminariaceae", 
+                    "genus": "Macrocystis", 
+                    "info_url": "http://www.mbari.org/staff/conn/botany/browns/james/default.htm", 
+                    "mass": 50.0, 
+                    "org_type": "algae",
+					"org_placement":"above",
+					"placement_horizon":40,
+					"horizon_angle":0,
+                    "relative_abundance": 0.6, 
+                    "relative_size": 1.8, 
+                    "species": "pyrifera", 
+                    "swf": "data/fish/Kelp6.swf"
+                },
+				{
+                    "family": "Laminariaceae", 
+                    "genus": "Macrocystis", 
+                    "info_url": "http://www.mbari.org/staff/conn/botany/browns/james/default.htm", 
+                    "mass": 50.0, 
+                    "org_type": "algae",
+					"org_placement":"above",
+					"placement_horizon":20,
+					"horizon_angle":0,
+                    "relative_abundance": 0.001, 
+                    "relative_size": 3.8, 
+                    "species": "pyrifera", 
+                    "swf": "data/fish/Kelp6.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.0
+        }, 
+		{
+            "biomass": 1.0, 
+            "density": 6, 
+            "display_name": "California spiny lobster", 
+            "organisms": [
+                {
+                    "family": "Palinuridae", 
+                    "genus": "Panulirus", 
+                    "info_url": "http://species-identification.org/species.php?species_group=lobsters&id=209", 
+                    "mass": 0.5, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":100,
+					"horizon_angle":0.5,
+                    "relative_abundance": 2, 
+                    "relative_size": 0.9, 
+                    "species": "interruptus", 
+                    "swf": "data/fish/Panulirus_interruptusRTR6.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1.0	
+		}
+    ], 
+    "meta_analysis_id": "", 
+    "name": "Anacapa Marine Reserve, California, USA", 
+    "org_scale": 0.80000000000000004, 
+    "point": "-119.365, 34.018", 
+    "summary": "",
+    "byline": ""
+}
