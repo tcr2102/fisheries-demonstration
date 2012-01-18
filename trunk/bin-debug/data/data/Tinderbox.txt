@@ -25,7 +25,7 @@
                     "relative_abundance": 1.4, 
                     "relative_size": 1, 
                     "species": "edwardsii", 
-                    "swf": "data/fish/Panulirus_interruptusRTR6.swf"
+                    "swf": "data/fish/Panulirus_interruptus.swf"
                 }
 			], 
             "richness": 1.0, 
@@ -46,7 +46,7 @@
                     "relative_abundance": 0.2, 
                     "relative_size": 2, 
                     "species": "forsteri", 
-                    "swf": "data/fish/bastardtrumpeter2.swf"
+                    "swf": "data/fish/Latridopsis_forsteri.swf"
                 }
 				
 			], 
@@ -68,7 +68,7 @@
                     "relative_abundance": 1, 
                     "relative_size": 1.2, 
                     "species": "forsteri", 
-                    "swf": "data/fish/bastardtrumpeter2.swf"
+                    "swf": "data/fish/Latridopsis_forsteri.swf"
                 }
 				
 			], 

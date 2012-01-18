@@ -14,18 +14,18 @@
             "display_name": "juvenile Caribbean reef shark", 
             "organisms": [
                 {
-                    "family": "Echinidae", 
-                    "genus": "Paracentrotus", 
-                    "info_url": "http://www.marlin.ac.uk/learningzone/species/LZ_Paracentrotuslividus.htm", 
+                    "family": "Carcharias", 
+                    "genus": "Carcharhinus", 
+                    "info_url": "http://www.fishbase.org/summary/Carcharhinus-perezii.html", 
                     "mass": 0.5, 
                     "org_type": "fish",
 					"org_placement":"above",
 					"placement_horizon":200,
 					"horizon_angle":0,
-                    "relative_abundance": 0.2, 
-                    "relative_size": 3.5, 
-                    "species": "analis", 
-                    "swf": "data/fish/Cperezii2.swf"
+                    "relative_abundance": 0.4, 
+                    "relative_size": 2.5, 
+                    "species": "perezi", 
+                    "swf": "data/fish/Carcharhinus_perezi.swf"
                 }
 			], 
             "richness": 1.0, 
@@ -35,7 +35,7 @@
     "meta_analysis_id": "", 
     "name": "Fernando de Noronha Archipelago, Brazil", 
     "org_scale": 0.80000000000000004, 
-    "point": "-32.46, -3.855", 
+    "point": "-32.40, -3.875", 
     "summary": "",
     "byline": ""
 }
