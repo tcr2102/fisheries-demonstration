@@ -19,14 +19,54 @@
                     "info_url": "http://www.fishbase.org/identification/SpeciesList.php?famcode=328&genus=Lethrinus&areacode=57&c_code=036&spines=&fins=&sortby=species", 
                     "mass": 1.0, 
                     "org_type": "fish", 
-                    "relative_abundance": 0.35, 
-                    "relative_size": 1.5, 
-                    "species": "spp.", 
-                    "swf": "data/fish/Lethrinus_erythracanthus.swf"
+                    "relative_abundance": 0.5, 
+                    "relative_size": 1.8, 
+                    "species": "nebulosus", 
+                    "swf": "data/fish/Lethrinus_nebulosus.swf"
                 }
             ], 
             "richness": 1.0, 
             "size": 1.33
+		},
+		{
+            "biomass": 2.119, 
+            "density": 3.493, 
+            "display_name": "emperors (family Lethrinidae)", 
+            "organisms": [ 
+				{
+                    "family": "Lethridae", 
+                    "genus": "Lethrinus", 
+                    "info_url": "http://www.fishbase.org/identification/SpeciesList.php?famcode=328&genus=Lethrinus&areacode=57&c_code=036&spines=&fins=&sortby=species", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 0.5, 
+                    "relative_size": 1.5, 
+                    "species": "spp.", 
+                    "swf": "data/fish/Lethrinus_lentjan.swf"
+                }
+            ], 
+            "richness": 1.0, 
+            "size": 1.33
+		},
+		{
+            "biomass": -1, 
+            "density": 1, 
+            "display_name": "Spanish flag snapper", 
+            "organisms": [ 
+				{
+                    "family": "Lethridae", 
+                    "genus": "Lethrinus", 
+                    "info_url": "http://www.fishbase.org/identification/SpeciesList.php?famcode=328&genus=Lethrinus&areacode=57&c_code=036&spines=&fins=&sortby=species", 
+                    "mass": 1.0, 
+                    "org_type": "fish", 
+                    "relative_abundance": 1, 
+                    "relative_size": 1, 
+                    "species": "spp.", 
+                    "swf": "data/fish/Lutjanus_carponotatus.swf"
+                }
+            ], 
+            "richness": 1, 
+            "size": -1
 		}
     ], 
     "meta_analysis_id": "", 

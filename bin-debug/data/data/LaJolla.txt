@@ -17,15 +17,15 @@
                     "family": "Echinidae", 
                     "genus": "Strongylocentrotus franciscanus", 
                     "info_url": "http://marinebio.org/species.asp?id=45", 
-                    "mass": 4.0, 
+                    "mass": 10.0, 
                     "org_type": "invertebrate",
 					"org_placement":"below",
-					"placement_horizon":300,
+					"placement_horizon":290,
 					"horizon_angle":-0.5, 
                     "relative_abundance": 0.1, 
-                    "relative_size": 0.40, 
+                    "relative_size": 0.30, 
                     "species": "fransicanus", 
-                    "swf": "data/fish/Strongylocentrotus_franciscanus1.swf"
+                    "swf": "data/fish/Strongylocentrotus_franciscanus.swf"
                 }
 			], 
             "richness": 1.0, 
