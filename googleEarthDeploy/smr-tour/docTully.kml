@@ -238,7 +238,7 @@
 				<value>Sumilon</value>
 			</Data>
 			<Data name="next">
-				<value>CINMS</value>
+				<value>Glovers</value>
 			</Data>
 		</ExtendedData>
 		<Point>
@@ -249,8 +249,8 @@
 		<name>Glover's Reef, Belize</name>
 		<description>The Glover’s Reef marine reserve was created in 1993 to protect valuable spiny lobster and queen conch populations on a coral atoll 45 kilometers off the coast of Belize. However, real enforcement of the reserve did not begin until 1998, which reduced poaching and allowed these populations to thrive within the reserve boundaries. Surveys conducted by scientists in 1997, before the reserve was effectively closed, compared to surveys conducted in 2001 show that the density of lobster and conch increased within the reserve by 3 and 4.5 times, respectively. Despite these successes for lobster and conch, fishes that range in and out of the 73 square kilometer reserve are not well-protected. This has led scientists to suggest that increasing the size of the reserve would benefit more fish populations.</description>
 		<LookAt>
-			<longitude>-87.83</longitude>
-			<latitude>16.76</latitude>
+			<longitude>-87.82</longitude>
+			<latitude>16.77</latitude>
 			<altitude>0</altitude>
 			<range>40000</range>
 			<tilt>24.07688567711139</tilt>
@@ -269,7 +269,7 @@
 			</Data>
 		</ExtendedData>
 		<Point>
-			<coordinates>-87.76,16.83</coordinates>
+			<coordinates>-87.82,16.77</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="CINMS">
@@ -289,7 +289,7 @@
 				<value>http://www.protectplanetocean.org/googleearthlayer/data/data/Channel.txt</value>
 			</Data>
 			<Data name="previous">
-				<value>Lundy</value>
+				<value>Glovers</value>
 			</Data>
 			<Data name="next">
 				<value>Anacapa</value>
@@ -301,7 +301,7 @@
 	</Placemark>
 	<Placemark id="Anacapa">
 		<name>Anacapa Island, California, USA</name>
-		<description>Established in 1978, the Anacapa Island marine reserve demonstrates how effective reserves can be.  While kelp forests in fished areas outside the reserve suffer due to urchin predation, the Anacapa reserve has maintained a healthy kelp forest habitat for the entire twenty-year monitoring period.  The main reason for this success is the abundance of spiny lobster within the reserve, which prey upon urchins.  With lobster populations reduced outside the reserve, urchin populations grow unchecked and consume much more kelp, leaving behind “urchin barrens” – areas fully devoid of the kelp that once defined that habitat.  Within the reserve, however, lobsters are six times more abundant, leaving a population of urchins thirteen times less dense that the fished area.  As a result, kelp cover in the reserve is over five times as dense, leading to a healthier habitat.  With increased kelp cover the marine reserve also showed higher resiliency to climatic stress, with kelp remaining abundant even in warm water years when kelp forests outside the reserve died back.</description>
+		<description>Established in 1978, the Anacapa Island marine reserve demonstrates how effective reserves can be.  While kelp forests in fished areas outside the reserve suffer due to urchin predation, the Anacapa reserve has maintained a healthy kelp forest habitat for the entire twenty-year monitoring period.  The main reason for this success is the abundance of spiny lobster within the reserve, which prey upon urchins.  With lobster populations reduced outside the reserve, urchin populations grow unchecked and consume much more kelp, leaving behind “urchin barrens” – areas fully devoid of the kelp that once defined that habitat.  Within the reserve, however, lobsters are six times more abundant, leaving a population of urchins thirteen times less dense than the fished area.  As a result, kelp cover in the reserve is over five times as dense, leading to a healthier habitat.  With increased kelp cover the marine reserve also showed higher resiliency to climatic stress, with kelp remaining abundant even in warm water years when kelp forests outside the reserve died back.</description>
 		<LookAt>
 			<longitude>-119.365</longitude>
 			<latitude>34.018</latitude>
@@ -328,7 +328,7 @@
 	</Placemark>
 	<Placemark id="Tortugas">
 		<name>Dry Tortugas, Florida, USA</name>
-		<description>The Dry Tortugas are small islands surrounded by coral reefs with areas governed by different fishing rules. Created after gathering input from commercial fishermen, dive-boat operators, and local environmental groups, the fully-protected no-take marine reserve yielded increases in numbers and sizes of three commercial species within three years. Responses were not as strong in a protected area where recreational fishing was allowed, demonstrating that full protection is preferable for the recovery of certain species.</description>
+		<description>The Dry Tortugas are small islands surrounded by coral reefs with areas governed by different fishing rules. Created after gathering input from commercial fishermen, dive-boat operators, and local environmental groups, the fully-protected no-take marine reserve yielded increases in numbers and sizes of 3 commercial species within 3 years. Responses were not as strong in a protected area where recreational fishing was allowed, demonstrating that full protection is preferable for the recovery of certain species.</description>
 		<LookAt>
 			<longitude>-82.89525836101058</longitude>
 			<latitude>24.65868553354943</latitude>
@@ -409,7 +409,7 @@
 	</Placemark>
 	<Placemark id="Tinderbox">
 		<name>Tinderbox Marine Reserve, Tasmania, Australia</name>
-		<description>Tinderbox Marine Reserve is a small no-take area founded in 1991 near Tasmania’s capital city of Hobart.  Despite its small size, the reserve has affected many species in interesting ways, including a ten-fold increase in the number of larger fish (>300mm) inside the reserve compared to the fished areas outside.  The population of large bastard trumpeter fish benefitted the most, increasing by a factor of eight inside the reserve over the course of the study.  However, the population of smaller trumpeters remained the same, a result indicative of high fishing pressure outside the reserve that removed the larger individuals of the population.  The reserve had similar effects on the southern rock lobster, allowing lobsters in the reserve to grow much larger while increasing in density.  Additional information from <a href="http://www.sciencedirect.com/science/article/pii/S0022098107000962"> Barrett (2007) JEMBE</a>.</description>
+		<description>Tinderbox Marine Reserve is a small no-take area founded in 1991 near Tasmania’s capital city of Hobart.  Despite its small size, the reserve has affected many species in interesting ways, including a ten-fold increase in the number of larger fish (>300mm) inside the reserve compared to the fished areas outside.  The population of large bastard trumpeter fish benefitted the most, increasing by a factor of eight inside the reserve over the course of the study.  However, the population of smaller trumpeters remained the same, a result indicative of high fishing pressure outside the reserve that removes the larger individuals of the population.  The reserve had similar effects on the southern rock lobster, allowing lobsters in the reserve to grow much larger while increasing in density.  Additional information from <a href="http://www.sciencedirect.com/science/article/pii/S0022098107000962"> Barrett (2007) JEMBE</a>.</description>
 		<LookAt>
 			<longitude>147.335</longitude>
 			<latitude>-43.059</latitude>

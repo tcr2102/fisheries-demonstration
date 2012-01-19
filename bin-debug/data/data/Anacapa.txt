@@ -36,7 +36,7 @@
             "citation": "Abesamis, et al (2006) Aquatic Conservation", 
 			"direct_link": "http://onlinelibrary.wiley.com/doi/10.1002/aqc.730/abstract", 
             "density": 5.2, 
-            "display_name": "giant brown kelp", 
+            "display_name": "ground cover of giant brown kelp", 
             "organisms": [
                 {
                     "family": "Laminariaceae", 
