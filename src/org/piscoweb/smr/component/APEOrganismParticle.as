@@ -101,7 +101,7 @@ package org.piscoweb.smr.component
 			this.setDisplay(this.displayObject);
 
 			this.displayObject.width = this.displayObjectWidth;
-			this.displayObject.scaleY = this.displayObject.scaleX;
+			this.displayObject.scaleY = Math.abs(this.displayObject.scaleX);
 			this.displayObject.addEventListener(MouseEvent.MOUSE_OVER, onMouseOver);
 			this.displayObject.addEventListener(MouseEvent.MOUSE_OUT, onMouseOut);
 			this.displayObject.addEventListener(MouseEvent.CLICK, onClick);
@@ -199,7 +199,7 @@ package org.piscoweb.smr.component
 				this.growEffect.play();
 			}else{
 				this.displayObject.width = this.displayObjectWidth * Math.sqrt(ratio);
-				this.displayObject.scaleY = this.displayObject.scaleX;
+				this.displayObject.scaleY = Math.abs(this.displayObject.scaleX);
 			}
 		}
 		

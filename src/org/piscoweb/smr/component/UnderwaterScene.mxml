@@ -205,6 +205,7 @@
 //						trace('change to 1 if under 1: '+beforeNumber);
 //						trace('this many instances of '+organism.name+' will be place in BEFORE: '+beforeNumber);
 						var afterNumber:int = Math.round(beforeNumber * dataPoint.density);
+						if(dataPoint.density == -1) afterNumber = beforeNumber; //this is because "-1" is a special character
 //						trace('this many instances of '+organism.name+' will be place in AFTER: '+afterNumber);
 //						var diff:int = afterNumber - beforeNumber;
 //						trace('difference: '+diff);
