@@ -82,7 +82,7 @@
 		{
             "biomass": 1.0,
             "density": 2.083,
-            "display_name": "macrocarnivores (fish and invertebrate)", 
+            "display_name": "macrocarnivores (fish & invertebrate eaters)", 
             "organisms": [
                 {
                     "family": "Lethrinidae", 

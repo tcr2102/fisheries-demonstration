@@ -23,13 +23,33 @@
 					"placement_horizon":200,
 					"horizon_angle":0,
                     "relative_abundance": 0.4, 
-                    "relative_size": 2.5, 
+                    "relative_size": 3.5, 
                     "species": "perezi", 
                     "swf": "data/fish/Carcharhinus_perezi.swf"
                 }
 			], 
             "richness": 1.0, 
             "size": 1.0	
+		},
+		{
+            "biomass": 1, 
+			"density": 1, 
+            "display_name": "The coney grouper", 
+            "organisms": [
+                {
+                    "family": "Carcharias", 
+                    "genus": "Carcharhinus", 
+                    "info_url": "http://www.fishbase.org/summary/Carcharhinus-perezii.html", 
+                    "mass": 1, 
+                    "org_type": "fish",
+					"relative_abundance": 1, 
+                    "relative_size": 1.2, 
+                    "species": "perezi", 
+                    "swf": "data/fish/Plectropomus_leopardus.swf"
+                }
+			], 
+            "richness": 1, 
+            "size": 1
 		}
     ], 
     "meta_analysis_id": "", 
