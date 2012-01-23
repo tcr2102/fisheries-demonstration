@@ -48,27 +48,7 @@
             "richness": 1.0, 
             "size": 1.0
         },
-		{
-            "biomass": 11.6, 
-            "density": 1.0, 
-            "display_name": "fish species (including the chevron butterflyfish)", 
-            "organisms": [
-                {
-                    "family": "Chaetodontidae", 
-                    "genus": "Chaetodon", 
-                    "info_url": "http://www.fishbase.org/summary/Chaetodon-trifascialis.html", 
-                    "mass": 1.0, 
-                    "org_type": "fish", 
-                    "relative_abundance": 2.0, 
-                    "relative_size": 0.5, 
-                    "species": "trifascialis", 
-                    "swf": "data/fish/Chaetodon_auriga.swf"
-                }
-            ], 
-            "richness": 1.0, 
-            "size": 1.0
-        }
-    ], 
+	], 
     "meta_analysis_id": "", 
     "name": "Kisite", 
     "org_scale": 0.80000000000000004, 

@@ -8,8 +8,31 @@
     "data_points": [
         {
             "biomass": 1.0, 
-            "citation": "Langlois et al (2006) Ecology", 
+			"citation": "Langlois et al (2006) Ecology", 
 			"direct_link": "http://www.esajournals.org/doi/abs/10.1890/04-0234",
+            "density": 0.54347, 
+            "display_name": "New Zealand sea urchin", 
+            "organisms": [
+                {
+                    "family": "Echinidae", 
+                    "genus": "Evechinus", 
+                    "info_url": "", 
+                    "mass": 10.0, 
+                    "org_type": "invertebrate",
+					"org_placement":"below",
+					"placement_horizon":200,
+					"horizon_angle":0, 
+                    "relative_abundance": 4, 
+                    "relative_size": 0.30, 
+                    "species": "chloroticus", 
+                    "swf": "data/fish/Evechinus_chloroticus.swf"
+                }
+			], 
+            "richness": 1.0, 
+            "size": 1	
+		},
+		{
+            "biomass": 1.0, 
             "density": 3.8, 
             "display_name": "southern rock lobster", 
             "organisms": [
@@ -52,29 +75,6 @@
 			], 
             "richness": 1.0, 
             "size": 1.0	
-		}, 
-		{
-            "biomass": 1.0,  
-            "density": 0.54347, 
-            "display_name": "New Zealand sea urchin", 
-            "organisms": [
-                {
-                    "family": "Echinidae", 
-                    "genus": "Evechinus", 
-                    "info_url": "", 
-                    "mass": 10.0, 
-                    "org_type": "invertebrate",
-					"org_placement":"below",
-					"placement_horizon":200,
-					"horizon_angle":0, 
-                    "relative_abundance": 2, 
-                    "relative_size": 0.30, 
-                    "species": "chloroticus", 
-                    "swf": "data/fish/Evechinus_chloroticus.swf"
-                }
-			], 
-            "richness": 1.0, 
-            "size": 1	
 		}
     ], 
     "meta_analysis_id": "", 
