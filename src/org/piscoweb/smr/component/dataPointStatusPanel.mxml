@@ -55,64 +55,68 @@
 				if(dataPoint.biomass > 1.005 || dataPoint.biomass < 0.995 || dataPoint.biomass==-1){
 					var biomass:int = DataPoint.toPercent(dataPoint.biomass, true);
 					var verb:String = DataPoint.toVerb(dataPoint.biomass, true);
-					if(dataPoint.biomass==-1) s = "On average, "+s + " biomass remained the same"+ " inside this Marine Reserve";
-					else s ="On average, "+ s + " biomass " +verb+ " "+biomass.toString() + "%"+ " inside this Marine Reserve";
+					if(dataPoint.biomass==-1) s = "On average, "+s + " biomass remained the same";
+					else s ="On average, "+ s + " biomass " +verb+ " "+biomass.toString() + "%";
 					if(dataPoint.density > 1.005 || dataPoint.density < 0.995 || dataPoint.density==-1){
 						var density:int = DataPoint.toPercent(dataPoint.density, true);
 						var verb:String = DataPoint.toVerb(dataPoint.density, true);
-						if(dataPoint.density==-1) s ="On average, "+ s + " and numbers remained the same"+ " inside this Marine Reserve";
-						else s ="On average, "+ s + " and numbers " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+						if(dataPoint.density==-1) s = s + " and numbers remained the same";
+						else s = s + " and numbers " +verb+ " " + density.toString() + "%";
 					}
 					if(dataPoint.richness > 1.001 || dataPoint.richness < 0.999 || dataPoint.richness==-1){
 							var density:int = DataPoint.toPercent(dataPoint.richness, true);
 							var verb:String = DataPoint.toVerb(dataPoint.richness, true);
-							if(dataPoint.biomass==-1) s ="On average, "+ s + " and species diversity remained about the same"+ " inside this Marine Reserve";
-							else s ="On average, "+ s + " and species diversity " +verb+ " " + density.toString() + "%" + " inside this Marine Reserve";
+							if(dataPoint.biomass==-1) s = s + " and species diversity remained about the same"
+							else s = s + " and species diversity " +verb+ " " + density.toString() + "%" 
 					}
 					if(dataPoint.size > 1.005 || dataPoint.size < 0.995 || dataPoint.size==-1){
 						var density:int = DataPoint.toPercent(dataPoint.size, true);
 						var verb:String = DataPoint.toVerb(dataPoint.size, true);
-						if(dataPoint.size==-1) s ="On average, "+ s + " and size remained the same"+ " inside this Marine Reserve";
-						else s ="On average, "+ s + " and size " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+						if(dataPoint.size==-1) s = s + " and size remained the same"
+						else s = s + " and size " +verb+ " " + density.toString() + "%"
 					}
+					s = s+" inside this marine reserve";
 				}else if(dataPoint.density > 1.005 || dataPoint.density < 0.995 || dataPoint.density==-1){
 					var density:int = DataPoint.toPercent(dataPoint.density, true);
 					var verb:String = DataPoint.toVerb(dataPoint.density, true);
-					if(dataPoint.density==-1) s ="On average, "+ s + " numbers remained the same"+ " inside this Marine Reserve";
-					else s ="On average, "+ s + " numbers " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+					if(dataPoint.density==-1) s ="On average, "+ s + " numbers remained the same"
+					else s ="On average, "+ s + " numbers " +verb+ " " + density.toString() + "%"
 					if(dataPoint.richness > 1.001 || dataPoint.richness < 0.999 || dataPoint.richness==-1){
 						var density:int = DataPoint.toPercent(dataPoint.richness, true);
 						var verb:String = DataPoint.toVerb(dataPoint.richness, true);
-						if(dataPoint.biomass==-1) s ="On average, "+ s + " and species diversity remained about the same"+ " inside this Marine Reserve";
-						else s ="On average, "+ s + " and species diversity " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+						if(dataPoint.biomass==-1) s =s + " and species diversity remained about the same"
+						else s =s + " and species diversity " +verb+ " " + density.toString() + "%"
 					}
 					if(dataPoint.size > 1.005 || dataPoint.size < 0.995 || dataPoint.size==-1){
 						var density:int = DataPoint.toPercent(dataPoint.size, true);
 						var verb:String = DataPoint.toVerb(dataPoint.size, true);
-						if(dataPoint.size==-1) s ="On average, "+ s + " and size remained the same"+ " inside this Marine Reserve";
-						else s = "On average, "+ s + " and size " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+						if(dataPoint.size==-1) s =s + " and size remained the same"
+						else s = s + " and size " +verb+ " " + density.toString() + "%"
 					}
+					s = s+" inside this marine reserve";
 				}
 				else if(dataPoint.richness > 1.001 || dataPoint.richness < 0.999 || dataPoint.richness==-1){
 					var density:int = DataPoint.toPercent(dataPoint.richness, true);
 					var verb:String = DataPoint.toVerb(dataPoint.richness, true);
-					if(dataPoint.biomass==-1) s ="On average, "+ s + " species diversity remained about the same"+ " inside this Marine Reserve";
-					else s ="On average, "+ s + " species diversity " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+					if(dataPoint.biomass==-1) s ="On average, "+ s + " species diversity remained about the same"
+					else s ="On average, "+ s + " species diversity " +verb+ " " + density.toString() + "%"
 					if(dataPoint.size > 1.005 || dataPoint.size < 0.995 || dataPoint.size==-1){
 						var density:int = DataPoint.toPercent(dataPoint.size, true);
 						var verb:String = DataPoint.toVerb(dataPoint.size, true);
-						if(dataPoint.size==-1) s ="On average, "+ s + " and size remained the same"+ " inside this Marine Reserve";
-						else s ="On average, "+ s + " and size " +verb+ " " + density.toString() + "%"+ " inside this Marine Reserve";
+						if(dataPoint.size==-1) s =s + " and size remained the same"
+						else s =s + " and size " +verb+ " " + density.toString() + "%"
 					}
+					s = s+" inside this marine reserve";
 				}
 				else if(dataPoint.size > 1.005 || dataPoint.size < 0.995 || dataPoint.size==-1){
 					var density:int = DataPoint.toPercent(dataPoint.size, true);
 					var verb:String = DataPoint.toVerb(dataPoint.size, true);
-					if(dataPoint.size==-1) s ="On average, "+ s + " size remained the same"+ " inside this Marine Reserve";
-					else s ="On average, "+ s + " size " +verb+ " " + density.toString() + "%" + " inside this Marine Reserve";
+					if(dataPoint.size==-1) s ="On average, "+ s + " size remained the same"
+					else s ="On average, "+ s + " size " +verb+ " " + density.toString() + "%";
+					s = s+" inside this marine reserve";
 				}
 				else{
-					s = s + " was not studied at this time";
+					s = s + " was not included in this study";
 				}
 				
 				
